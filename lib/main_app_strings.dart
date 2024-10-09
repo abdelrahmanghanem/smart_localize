@@ -1,3 +1,4 @@
 library main_app_strings;
 
-export 'src/translation/main_app_localizations.dart';
+export 'src/app_strings.dart';
+export 'src/translation/localization.dart';

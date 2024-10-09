@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
       ],
       locale: const Locale('ar'),
       localeResolutionCallback: (locale, supportedLocales) =>
-          locale ?? const Locale('ar'),
+          supportedLocales.contains(locale) ? locale : const Locale('ar'),
       localizationsDelegates: const [
-        MainAppLocalizations.delegate,
+        MainAppStrings.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate
@@ -49,14 +49,27 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text('widget'),
+        title: const Text('widget'),
       ),
-      body: const Center(
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'number_',
+              AppStrings.number,
+              style: const TextStyle(fontSize: 40),
+            ),
+            Text(
+              AppStrings.email,
+              style: const TextStyle(fontSize: 40),
+            ),
+            Text(
+              AppStrings.phone,
+              style: const TextStyle(fontSize: 40),
+            ),
+            Text(
+              AppStrings.password,
+              style: const TextStyle(fontSize: 40),
             ),
           ],
         ),

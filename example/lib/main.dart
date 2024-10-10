@@ -36,45 +36,39 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('widget'),
+        title: Text(AppStrings.home),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+          children: [
             Text(
-              AppStrings.number,
-              style: const TextStyle(fontSize: 40),
+              AppStrings.company,
+              style: const TextStyle(fontSize: 14),
             ),
             Text(
-              AppStrings.email,
-              style: const TextStyle(fontSize: 40),
+              AppStrings.confirmNewPassword,
+              style: const TextStyle(fontSize: 14),
             ),
             Text(
-              AppStrings.phone,
-              style: const TextStyle(fontSize: 40),
+              AppStrings.country,
+              style: const TextStyle(fontSize: 14),
             ),
             Text(
-              AppStrings.password,
-              style: const TextStyle(fontSize: 40),
+              AppStrings.confirmAcceptCookies,
+              style: const TextStyle(fontSize: 14),
             ),
           ],
         ),
       ),
-// This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }

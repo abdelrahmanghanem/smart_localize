@@ -1,13 +1,13 @@
 import 'package:flutter/widgets.dart';
-import 'package:main_app_strings/src/localization_file.dart';
+import 'package:smart_localize/src/localization_file.dart';
 
 String translate(
   String key, {
   BuildContext? context,
 }) {
   return context == null
-      ? MainAppStrings.instance.tr(key)
-      : MainAppStrings.of(context)!.tr(key);
+      ? LocalizeDelegate.instance.tr(key)
+      : LocalizeDelegate.of(context)!.tr(key);
 }
 
 extension StringExtension on String {

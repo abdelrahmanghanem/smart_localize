@@ -1,6 +1,8 @@
 {
   "ok": "OK",
   "yes": "Yes",
+  "delete": "Delete",
+  "logout": "Logout",
   "no": "No",
   "back": "Back",
   "next": "Next",

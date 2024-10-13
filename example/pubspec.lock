@@ -120,13 +120,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.0"
-  main_app_strings:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.1"
   matcher:
     dependency: transitive
     description:
@@ -164,6 +157,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  smart_localize:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   source_span:
     dependency: transitive
     description:

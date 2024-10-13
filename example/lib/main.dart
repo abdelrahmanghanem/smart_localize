@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:main_app_strings/main_app_strings.dart';
+import 'package:smart_localize/smart_localize.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       localeResolutionCallback: (locale, supportedLocales) =>
           supportedLocales.contains(locale) ? locale : const Locale('ar'),
       localizationsDelegates: const [
-        MainAppStrings.delegate,
+        LocalizeDelegate.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate
@@ -44,26 +44,26 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(AppStrings.home),
+        title: Text(SmartLocalize.home),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              AppStrings.company,
+              SmartLocalize.company,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              AppStrings.confirmNewPassword,
+              SmartLocalize.confirmNewPassword,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              AppStrings.country,
+              SmartLocalize.country,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              AppStrings.confirmAcceptCookies,
+              SmartLocalize.confirmNewPassword,
               style: const TextStyle(fontSize: 14),
             ),
           ],

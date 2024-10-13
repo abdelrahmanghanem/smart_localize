@@ -3,28 +3,28 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 
-class MainAppStrings {
+class LocalizeDelegate {
   Translations? _translations;
   Translations? _fallbackTranslations;
   late Locale _locale;
 
-  MainAppStrings._(); // Private constructor for Singleton
+  LocalizeDelegate._(); // Private constructor for Singleton
 
-  static MainAppStrings? _instance;
+  static LocalizeDelegate? _instance;
 
   // Singleton instance accessor
-  static MainAppStrings get instance => _instance ??= MainAppStrings._();
+  static LocalizeDelegate get instance => _instance ??= LocalizeDelegate._();
 
   // Localization delegate for use in Flutter's localization system
-  static const LocalizationsDelegate<MainAppStrings> delegate =
-      _MainAppStringsDelegate();
+  static const LocalizationsDelegate<LocalizeDelegate> delegate =
+      _LocalizationsDelegate();
 
-  static MainAppStrings? of(BuildContext context) =>
-      Localizations.of<MainAppStrings>(context, MainAppStrings);
+  static LocalizeDelegate? of(BuildContext context) =>
+      Localizations.of<LocalizeDelegate>(context, LocalizeDelegate);
 
   // Method to load resources for a specific locale
   static Future<Map<String, dynamic>> loadResources(Locale locale) async {
-    const String basePath = 'packages/main_app_strings/assets/translation';
+    const String basePath = 'packages/smart_localize/assets/translation';
     final List<String> resourceFiles = [
       'button',
       'confirmation',
@@ -103,18 +103,18 @@ class Translations {
 }
 
 // Delegate class to handle localization loading
-class _MainAppStringsDelegate extends LocalizationsDelegate<MainAppStrings> {
-  const _MainAppStringsDelegate();
+class _LocalizationsDelegate extends LocalizationsDelegate<LocalizeDelegate> {
+  const _LocalizationsDelegate();
 
   @override
   bool isSupported(Locale locale) => ['en', 'ar'].contains(locale.languageCode);
 
   @override
-  Future<MainAppStrings> load(Locale locale) async {
-    await MainAppStrings.load(locale);
-    return MainAppStrings.instance;
+  Future<LocalizeDelegate> load(Locale locale) async {
+    await LocalizeDelegate.load(locale);
+    return LocalizeDelegate.instance;
   }
 
   @override
-  bool shouldReload(_MainAppStringsDelegate old) => false;
+  bool shouldReload(_LocalizationsDelegate old) => false;
 }

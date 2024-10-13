@@ -1,13 +1,13 @@
-# MainAppStrings Localization Package
+# Smart Localize Package
 
-MainAppStrings is a localization package for Flutter applications that provides easy and efficient handling of translations. It supports dynamic loading of language resources based on the app's locale, with robust fallback translations.
+SmartLocalize is a Flutter localization package that efficiently handles translations by dynamically loading language resources based on the app's locale, with robust fallback support.
 
 <p>
-    <a href="https://github.com/abdelrahmanghanem/main_app_strings"><img src="https://img.shields.io/github/stars/abdelrahmanghanem/main_app_strings?style=social" alt="Repo stars"></a>
-    <a href="https://github.com/abdelrahmanghanem/main_app_strings/commits/main"><img src="https://img.shields.io/github/last-commit/abdelrahmanghanem/main_app_strings/main?logo=git" alt="Last Commit"></a>
-    <a href="https://github.com/abdelrahmanghanem/main_app_strings/pulls"><img src="https://img.shields.io/github/issues-pr/abdelrahmanghanem/main_app_strings" alt="Repo PRs"></a>
-    <a href="https://github.com/abdelrahmanghanem/main_app_strings/issues?q=is%3Aissue+is%3Aopen"><img src="https://img.shields.io/github/issues/abdelrahmanghanem/main_app_strings" alt="Repo issues"></a>
-    <a href="https://github.com/abdelrahmanghanem/main_app_strings/blob/main/LICENSE"><img src="https://badgen.net/github/license/abdelrahmanghanem/main_app_strings" alt="License"></a>
+    <a href="https://github.com/abdelrahmanghanem/smart_localize"><img src="https://img.shields.io/github/stars/abdelrahmanghanem/smart_localize?style=social" alt="Repo stars"></a>
+    <a href="https://github.com/abdelrahmanghanem/smart_localize/commits/main"><img src="https://img.shields.io/github/last-commit/abdelrahmanghanem/smart_localize/main?logo=git" alt="Last Commit"></a>
+    <a href="https://github.com/abdelrahmanghanem/smart_localize/pulls"><img src="https://img.shields.io/github/issues-pr/abdelrahmanghanem/smart_localize" alt="Repo PRs"></a>
+    <a href="https://github.com/abdelrahmanghanem/smart_localize/issues?q=is%3Aissue+is%3Aopen"><img src="https://img.shields.io/github/issues/abdelrahmanghanem/smart_localize" alt="Repo issues"></a>
+    <a href="https://github.com/abdelrahmanghanem/smart_localize/blob/main/LICENSE"><img src="https://badgen.net/github/license/abdelrahmanghanem/smart_localize" alt="License"></a>
 </p>
 
 ## Features
@@ -24,7 +24,7 @@ MainAppStrings is a localization package for Flutter applications that provides 
 
 ```yaml
 dependencies:
-  main_app_strings: <latest_version>
+  smart_localize: <latest_version>
 ```
 
 
@@ -34,14 +34,14 @@ dependencies:
 
 ```dart
   Text(
-    AppStrings.company,
+    SmartLocalize.company,
     style: const TextStyle(fontSize: 14),
   )
 ```
 
 ### Basic Usage
 
-Here is an example of how to use the `MainAppStrings` widget in your Flutter application:
+Here is an example of how to use the `SmartLocalize` widget in your Flutter application:
 
 ```dart
 class MyApp extends StatelessWidget {
@@ -59,7 +59,7 @@ class MyApp extends StatelessWidget {
       localeResolutionCallback: (locale, supportedLocales) =>
       supportedLocales.contains(locale) ? locale : const Locale('ar'),
       localizationsDelegates: const [
-        MainAppStrings.delegate,
+        LocalizeDelegate.delegate,
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate
@@ -82,26 +82,26 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(AppStrings.home),
+        title: Text(SmartLocalize.home),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              AppStrings.company,
+              SmartLocalize.company,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              AppStrings.confirmNewPassword,
+              SmartLocalize.confirmNewPassword,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              AppStrings.country,
+              SmartLocalize.country,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              AppStrings.confirmAcceptCookies,
+              SmartLocalize.confirmAcceptCookies,
               style: const TextStyle(fontSize: 14),
             ),
           ],
@@ -114,12 +114,12 @@ class MyHomePage extends StatelessWidget {
 
 ## Localization
 
-To enable validation message localization in the Factory Constructors, add `MainAppStrings.delegate` to your app's list of delegates:
+To enable validation message localization in the Factory Constructors, add `LocalizeDelegate.delegate` to your app's list of delegates:
 
 ```dart
   MaterialApp(
     localizationsDelegates: [
-      MainAppStrings.delegate,
+      LocalizeDelegate.delegate,
    
       // other delegates...
     ],
@@ -129,11 +129,11 @@ To enable validation message localization in the Factory Constructors, add `Main
 ## Contributions
 Feel free to contribute to this project.
 
-If you find a bug or want a feature, but don't know how to fix/implement it, please fill an [issue](https://github.com/abdelrahmanghanem/main_app_strings/issues).  
-If you fixed a bug or implemented a feature, please send a [pull request](https://github.com/abdelrahmanghanem/main_app_strings/pulls).
+If you find a bug or want a feature, but don't know how to fix/implement it, please fill an [issue](https://github.com/abdelrahmanghanem/smart_localize/issues).  
+If you fixed a bug or implemented a feature, please send a [pull request](https://github.com/abdelrahmanghanem/smart_localize/pulls).
 
-<a href="https://github.com/abdelrahmanghanem/main_app_strings/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=abdelrahmanghanem/main_app_strings"  alt=""/>
+<a href="https://github.com/abdelrahmanghanem/smart_localize/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=abdelrahmanghanem/smart_localize"  alt=""/>
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).

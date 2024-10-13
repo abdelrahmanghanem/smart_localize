@@ -1,8 +1,8 @@
-name: main_app_strings
-description: "is a localization package for Flutter applications that provides easy and efficient handling of translations. It supports dynamic loading of language resources based on the app's locale, with robust fallback translations."
+name: smart_localize
+description: "is a Flutter localization package that efficiently handles translations by dynamically loading language resources based on the app's locale, with robust fallback support."
 version: 0.0.1
 homepage: https://github.com/abdelrahmanghanem
-repository: https://github.com/abdelrahmanghanem/main_app_strings
+repository: https://github.com/abdelrahmanghanem/smart_localize
 
 environment:
   sdk: ^3.5.2

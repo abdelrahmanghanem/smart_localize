@@ -37,7 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_localizations:
     sdk: flutter
-  main_app_strings:
+  smart_localize:
     path: ../
 
 dev_dependencies:

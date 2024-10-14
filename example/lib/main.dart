@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:smart_localize/smart_localize.dart';
 
 void main() {
@@ -20,12 +19,7 @@ class MyApp extends StatelessWidget {
       locale: const Locale('ar'),
       localeResolutionCallback: (locale, supportedLocales) =>
           supportedLocales.contains(locale) ? locale : const Locale('ar'),
-      localizationsDelegates: const [
-        LocalizeDelegate.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate
-      ],
+      localizationsDelegates: context.smartLocalizeDelegates,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

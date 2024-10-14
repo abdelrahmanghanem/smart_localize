@@ -2,6 +2,13 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+
+extension StringExtension on BuildContext {
+  List<LocalizationsDelegate> get smartLocalizeDelegates =>
+      LocalizeDelegate.of(this)?.delegates ??
+      LocalizeDelegate.instance.delegates;
+}
 
 class LocalizeDelegate {
   Translations? _translations;
@@ -18,6 +25,13 @@ class LocalizeDelegate {
   // Localization delegate for use in Flutter's localization system
   static const LocalizationsDelegate<LocalizeDelegate> delegate =
       _LocalizationsDelegate();
+
+  List<LocalizationsDelegate> get delegates => [
+        delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ];
 
   static LocalizeDelegate? of(BuildContext context) =>
       Localizations.of<LocalizeDelegate>(context, LocalizeDelegate);

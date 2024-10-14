@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:smart_localize/src/localization_file.dart';
+import 'package:smart_localize/src/localization_delegate.dart';
 
 String translate(
   String key, {

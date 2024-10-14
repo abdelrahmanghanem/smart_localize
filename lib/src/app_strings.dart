@@ -404,6 +404,47 @@ class SmartLocalize {
   /// Returns the localized string for "Light Mode".
   static String get lightMode => "light_mode".tr();
 
+  static String get or => "Or".tr();
+
+  /// Returns the label: "Or"
+
+  static String get and => "And".tr();
+
+  /// Returns the label: "And"
+
+  static String get youHaveAnAccount => "You have an account?".tr();
+
+  /// Returns the message: "You have an account?"
+
+  static String get dontHaveAnAccount => "Don't have an account?".tr();
+
+  /// Returns the message: "Don't have an account?"
+
+  static String get signInWithApple => "Sign in with Apple".tr();
+
+  /// Returns the label: "Sign in with Apple"
+
+  static String get signInWithX => "Sign in with X".tr();
+
+  /// Returns the label: "Sign in with X"
+
+  static String get signInWithFacebook => "Sign in with Facebook".tr();
+
+  /// Returns the label: "Sign in with Facebook"
+
+  static String get signInWithGoogle => "Sign in with Google".tr();
+
+  /// Returns the label: "Sign in with Google"
+
+  static String get enterWith => "Login with".tr();
+
+  /// Returns the label: "Login with"
+
+  static String get byRegistering =>
+      "By registering in the application, you agree to".tr();
+
+  /// Returns the message: "By registering in the application, you agree to"
+
   //============== confirmation section ===================
   /// Returns the confirmation message: "Are you sure you want to delete this item?".
   static String get confirmDelete => "confirm_delete".tr();
@@ -937,6 +978,9 @@ class SmartLocalize {
 
   /// Returns the localized string for "Last Name".
   static String get lastName => "last_name".tr();
+
+  /// Returns the localized string for "Last Name".
+  static String get welcome => "welcome".tr();
 
   /// Returns the localized string for "Middle Name".
   static String get middleName => "middle_name".tr();

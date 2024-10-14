@@ -132,6 +132,16 @@
   "language": "Language",
   "themes": "Themes",
   "dark_mode": "Dark Mode",
-  "light_mode": "Light Mode"
+  "light_mode": "Light Mode",
+  "or_": "Or",
+  "and_": "And",
+  "you_have_an_account": "You have an account?",
+  "don't_have_an_account": "Don't have an account?",
+  "sign_in_with_apple": "Sign in with Apple",
+  "sign_in_with_x": "Sign in with X",
+  "sign_in_with_facebook": "Sign in with Facebook",
+  "sign_in_with_google": "Sign in with Google",
+  "enter_with": "Login with",
+  "by_registering": "By registering in the application, you agree to"
 }
 

@@ -1,4 +1,4 @@
-## 0.0.2
+## 0.0.3
 * add validation file to localization folder
 ## 0.0.2
 * handle extension localization delegate

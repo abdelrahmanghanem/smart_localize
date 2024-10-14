@@ -13,7 +13,7 @@ extension StringExtension on BuildContext {
 class LocalizeDelegate {
   Translations? _translations;
   Translations? _fallbackTranslations;
-  late Locale _locale;
+  Locale _locale = const Locale('en');
 
   LocalizeDelegate._(); // Private constructor for Singleton
 
@@ -66,15 +66,15 @@ class LocalizeDelegate {
 
   // Load translations and fallback translations
   static Future<bool> load(
-    Locale locale, {
-    Translations? fallbackTranslations,
+    Locale? locale, {
     bool useFallbackTranslationsForEmptyResources = false,
   }) async {
-    instance._locale = locale;
-    final resources = await loadResources(locale);
+    instance._locale = locale ?? const Locale('en');
+    final resources = await loadResources(instance._locale);
 
     instance._translations = Translations(resources);
-    instance._fallbackTranslations = fallbackTranslations;
+    instance._fallbackTranslations =
+        Translations(await loadResources(const Locale('en')));
 
     return resources.isNotEmpty;
   }

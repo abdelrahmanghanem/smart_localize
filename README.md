@@ -58,12 +58,7 @@ class MyApp extends StatelessWidget {
       locale: const Locale('ar'),
       localeResolutionCallback: (locale, supportedLocales) =>
       supportedLocales.contains(locale) ? locale : const Locale('ar'),
-      localizationsDelegates: const [
-        LocalizeDelegate.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate
-      ],
+      localizationsDelegates: context.smartLocalizeDelegates,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -118,11 +113,7 @@ To enable validation message localization in the Factory Constructors, add `Loca
 
 ```dart
   MaterialApp(
-    localizationsDelegates: [
-      LocalizeDelegate.delegate,
-   
-      // other delegates...
-    ],
+    localizationsDelegates: context.smartLocalizeDelegates,
     // other app configurations...
   )
 ```

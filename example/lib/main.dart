@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       ],
       locale: const Locale('ar'),
       localeResolutionCallback: (locale, supportedLocales) =>
-          supportedLocales.contains(locale) ? locale : const Locale('ar'),
+          supportedLocales.contains(locale) ? locale : const Locale('en'),
       localizationsDelegates: context.smartLocalizeDelegates,
       title: 'Flutter Demo',
       theme: ThemeData(

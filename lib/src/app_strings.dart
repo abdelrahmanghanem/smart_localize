@@ -3101,4 +3101,195 @@ class SmartLocalize {
 
   /// Returns the localized string for "Discover".
   static String get discover => "discover".tr();
+
+  // =============== variables ===============
+  static String get validateNumber => "Number".tr();
+
+  /// Field label: "Number"
+
+  static String get validatePhone => "Phone".tr();
+
+  /// Field label: "Phone"
+
+  static String get validateEmail => "Email".tr();
+
+  /// Field label: "Email"
+
+  static String get validatePassword => "Password".tr();
+
+  /// Field label: "Password"
+
+  static String get validateConfirmPassword => "Confirm Password".tr();
+
+  /// Field label: "Confirm Password"
+
+  static String get validateCannotBeEmpty => "Field can't be empty".tr();
+
+  /// Error message: "Field can't be empty"
+
+  static String get validateInvalidPhoneWarning => "Invalid phone number".tr();
+
+  /// Warning message: "Invalid phone number"
+
+  static String get validateInvalidValue => "Invalid value".tr();
+
+  /// Warning message: "Invalid value"
+
+  static String get validateInvalidNumberValue => "Invalid number value".tr();
+
+  /// Warning message: "Invalid number value"
+
+  static String get validateCannotBeEmptyOrZero =>
+      "Field can't be empty or zero".tr();
+
+  /// Error message: "Field can't be empty or zero"
+
+  static String get validateCannotBeZero => "Cannot be zero".tr();
+
+  /// Error message: "Cannot be zero"
+
+  static String get validateInvalidEmailWithExample =>
+      "Invalid email Example: example@example.com".tr();
+
+  /// Warning message: "Invalid email. Example: example@example.com"
+
+  static String get validatePasswordEmpty => "* Password cannot be empty".tr();
+
+  /// Error message: "* Password cannot be empty"
+
+  static String get validatePasswordLength =>
+      "* Password must be at least 8 characters long".tr();
+
+  /// Error message: "* Password must be at least 8 characters long"
+
+  static String get validatePasswordUppercase =>
+      "* Password must contain at least 1 uppercase letter".tr();
+
+  /// Error message: "* Password must contain at least 1 uppercase letter"
+
+  static String get validatePasswordLowercase =>
+      "* Password must contain at least 1 lowercase letter".tr();
+
+  /// Error message: "* Password must contain at least 1 lowercase letter"
+
+  static String get validatePasswordDigit =>
+      "* Password must contain at least 1 digit".tr();
+
+  /// Error message: "* Password must contain at least 1 digit"
+
+  static String get validatePasswordSpecialChar =>
+      "* Password must contain at least 1 special character".tr();
+
+  /// Error message: "* Password must contain at least 1 special character"
+
+  static String get validatePasswordFormat =>
+      "* Password must contain at least\n\n • Minimum length is 8 characters\n • 1 Capital letter and 1 small letter\n • 1 numbers\n • 1 special characters"
+          .tr();
+
+  /// Information: Password requirements list
+
+  static String get validatePasswordNotMatch => "Password not match".tr();
+
+  /// Error message: "Password not match"
+
+  static String get validateOnlyArabicLetters => "Only arabic letters".tr();
+
+  /// Restriction message: "Only Arabic letters allowed"
+
+  static String get validateOnlyEnglishLetters => "Only english letters".tr();
+
+  /// Restriction message: "Only English letters allowed"
+
+  static String get validateMinimumLengthIs1Digit =>
+      "Minimum length is 1 digit".tr();
+
+  /// Error message: "Minimum length is 1 digit"
+
+  static String get validateMaxLengthIs7Digits => "Max length is 7 digits".tr();
+
+  /// Error message: "Maximum length is 7 digits"
+
+  static String get validateMaxLengthIs2Digits => "Max length is 2 digits".tr();
+
+  /// Error message: "Maximum length is 2 digits"
+
+  static String get validateSellMoreThanBuy => "Sell more than buy".tr();
+
+  /// Error message: "Sell value is greater than buy value"
+
+  static String get validateBuyLessThanSell => "Buy less than sell".tr();
+
+  /// Error message: "Buy value is less than sell value"
+
+  static String get validatePleaseEnterTheMinPrice =>
+      "Please enter the min price".tr();
+
+  /// Prompt: "Please enter the minimum price"
+
+  static String get validatePleaseEnterTheMaxPrice =>
+      "Please enter the max price".tr();
+
+  /// Prompt: "Please enter the maximum price"
+
+  static String get validatePleaseEnterValidPrice =>
+      "Please enter valid price".tr();
+
+  /// Warning: "Please enter a valid price"
+
+  static String get validateMinLessThanMax => "Min < Max".tr();
+
+  /// Error message: "Min < Max"
+
+  static String get validatePleaseEnterValidValue =>
+      "Please enter valid value".tr();
+
+  /// Prompt: "Please enter a valid value"
+
+  static String get validateSalaryMustBeBetween =>
+      "Salary must be between".tr();
+
+  /// Message: "Salary must be within a specific range"
+
+  static String get validatePleaseEnterValidCode =>
+      "Please enter valid code".tr();
+
+  /// Warning: "Please enter a valid code"
+
+  static String get validateValueBeGreaterThanZero =>
+      "Value be greater than zero".tr();
+
+  /// Warning: "Value must be greater than zero"
+
+  static String get validateMustBeGreaterThanThreeDigits =>
+      "Must be greater than three digits".tr();
+
+  /// Error message: "Value must be greater than three digits"
+
+  static String get validateMustBeLessThanElevenDigits =>
+      "Must be less than eleven digits".tr();
+
+  /// Error message: "Value must be less than eleven digits"
+
+  static String get validatePleaseEnterYourEmail =>
+      "Please enter your email".tr();
+
+  /// Prompt: "Please enter your email"
+
+  static String get validatePleaseConfirmPassword =>
+      "Please confirm password".tr();
+
+  /// Prompt: "Please confirm password"
+
+  static String get validatePleaseEnterNumber => "Please enter number".tr();
+
+  /// Prompt: "Please enter number"
+
+  static String get validatePleaseEnterYourPhoneNumber =>
+      "Please enter your phone number".tr();
+
+  /// Prompt: "Please enter your phone number"
+
+  static String get validatePleaseEnterPassword => "Please enter password".tr();
+
+  /// Prompt: "Please enter password"
 }

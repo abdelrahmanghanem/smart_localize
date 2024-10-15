@@ -1,9 +1,5 @@
 {
-  "number_": "رقم",
-  "phone_": "رقم الهاتف",
-  "email_": "البريد الإلكتروني",
-  "password_": "كلمة المرور",
-  "confirm_password": "تأكيد كلمة المرور",
+
   "can_not_be_empty": "لا يمكن أن يكون فارغًا",
   "invalid_phone_warning": "رقم الهاتف غير صالح",
   "invalid_value": "قيمة غير صالحة",
@@ -40,5 +36,6 @@
   "please_enter_number": "يرجى أدخال رقم",
   "please_enter_your_phone_number": "يرجى أدخال رقم هاتفك",
   "please_enter_password": "يرجى أدخال كلمة المرور",
+  "email_must_be_at_least_8_characters_long": "البريد الالكتروني يجب ان يكون على الاقل 8 احرف",
   "": ""
 }

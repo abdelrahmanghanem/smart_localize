@@ -45,7 +45,8 @@ class LocalizeDelegate {
       'date',
       'footer',
       'label',
-      'placeholder'
+      'placeholder',
+      'validation'
     ];
     Map<String, dynamic> combinedMap = {};
 

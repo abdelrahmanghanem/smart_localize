@@ -49,7 +49,15 @@ class MyHomePage extends StatelessWidget {
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalize.confirmNewPassword,
+              SmartLocalize.company,
+              style: const TextStyle(fontSize: 14),
+            ),
+            Text(
+              SmartLocalizeValidation.validatePasswordLowercase,
+              style: const TextStyle(fontSize: 14),
+            ),
+            Text(
+              SmartLocalizeValidation.validateCannotBeEmpty,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
@@ -57,7 +65,7 @@ class MyHomePage extends StatelessWidget {
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalize.confirmNewPassword,
+              SmartLocalizeConfirmation.confirmAction,
               style: const TextStyle(fontSize: 14),
             ),
           ],

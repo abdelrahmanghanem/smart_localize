@@ -27,6 +27,9 @@ class SmartLocalizePlaceholder {
   /// Message is "Please enter your company name"
   static String get company => "company".tr();
 
+  /// Message is "Please enter number"
+  static String get pleaseEnterNumber => "please_enter_number".tr();
+
   /// Message is "Please confirm new password"
   static String get confirmNewPassword => "confirm_new_password".tr();
 

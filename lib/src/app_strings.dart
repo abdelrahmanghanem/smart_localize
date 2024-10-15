@@ -4,406 +4,406 @@ class SmartLocalize {
   SmartLocalize._();
 
   //============== button section ===================
-  /// Returns the localized string for "OK".
+  /// Message is "OK".
   static String get ok => "ok".tr();
 
-  /// Returns the localized string for "Delete".
+  /// Message is "Delete".
   static String get delete => "delete".tr();
 
-  /// Returns the localized string for "Logout".
+  /// Message is "Logout".
   static String get logout => "logout".tr();
 
-  /// Returns the localized string for "Yes".
+  /// Message is "Yes".
   static String get yes => "yes".tr();
 
-  /// Returns the localized string for "No".
+  /// Message is "No".
   static String get no => "no".tr();
 
-  /// Returns the localized string for "Back".
+  /// Message is "Back".
   static String get back => "back".tr();
 
-  /// Returns the localized string for "Next".
+  /// Message is "Next".
   static String get next => "next".tr();
 
-  /// Returns the localized string for "Finish".
+  /// Message is "Finish".
   static String get finish => "finish".tr();
 
-  /// Returns the localized string for "Accept".
+  /// Message is "Accept".
   static String get accept => "accept".tr();
 
-  /// Returns the localized string for "Decline".
+  /// Message is "Decline".
   static String get decline => "decline".tr();
 
-  /// Returns the localized string for "Continue".
+  /// Message is "Continue".
   static String get continue_ => "continue".tr();
 
-  /// Returns the localized string for "Retry".
+  /// Message is "Retry".
   static String get retry => "retry".tr();
 
-  /// Returns the localized string for "Skip".
+  /// Message is "Skip".
   static String get skip => "skip".tr();
 
-  /// Returns the localized string for "Close".
+  /// Message is "Close".
   static String get close => "close".tr();
 
-  /// Returns the localized string for "Open".
+  /// Message is "Open".
   static String get open => "open".tr();
 
-  /// Returns the localized string for "Refresh".
+  /// Message is "Refresh".
   static String get refresh => "refresh".tr();
 
-  /// Returns the localized string for "Load More".
+  /// Message is "Load More".
   static String get loadMore => "load_more".tr();
 
-  /// Returns the localized string for "Apply".
+  /// Message is "Apply".
   static String get apply => "apply".tr();
 
-  /// Returns the localized string for "Reset".
+  /// Message is "Reset".
   static String get reset => "reset".tr();
 
-  /// Returns the localized string for "Upload".
+  /// Message is "Upload".
   static String get upload => "upload".tr();
 
-  /// Returns the localized string for "Download".
+  /// Message is "Download".
   static String get download => "download".tr();
 
-  /// Returns the localized string for "Share".
+  /// Message is "Share".
   static String get share => "share".tr();
 
-  /// Returns the localized string for "Filter".
+  /// Message is "Filter".
   static String get filter => "filter".tr();
 
-  /// Returns the localized string for "View".
+  /// Message is "View".
   static String get view => "view".tr();
 
-  /// Returns the localized string for "Send".
+  /// Message is "Send".
   static String get send => "send".tr();
 
-  /// Returns the localized string for "Add".
+  /// Message is "Add".
   static String get add => "add".tr();
 
-  /// Returns the localized string for "Remove".
+  /// Message is "Remove".
   static String get remove => "remove".tr();
 
-  /// Returns the localized string for "Start".
+  /// Message is "Start".
   static String get start => "start".tr();
 
-  /// Returns the localized string for "Stop".
+  /// Message is "Stop".
   static String get stop => "stop".tr();
 
-  /// Returns the localized string for "Pause".
+  /// Message is "Pause".
   static String get pause => "pause".tr();
 
-  /// Returns the localized string for "Resume".
+  /// Message is "Resume".
   static String get resume => "resume".tr();
 
-  /// Returns the localized string for "Details".
+  /// Message is "Details".
   static String get details => "details".tr();
 
-  /// Returns the localized string for "More".
+  /// Message is "More".
   static String get more => "more".tr();
 
-  /// Returns the localized string for "Less".
+  /// Message is "Less".
   static String get less => "less".tr();
 
-  /// Returns the localized string for "Submit Form".
+  /// Message is "Submit Form".
   static String get submitForm => "submit_form".tr();
 
-  /// Returns the localized string for "Confirm".
+  /// Message is "Confirm".
   static String get confirm => "confirm".tr();
 
-  /// Returns the localized string for "Dismiss".
+  /// Message is "Dismiss".
   static String get dismiss => "dismiss".tr();
 
-  /// Returns the localized string for "Enable".
+  /// Message is "Enable".
   static String get enable => "enable".tr();
 
-  /// Returns the localized string for "Disable".
+  /// Message is "Disable".
   static String get disable => "disable".tr();
 
-  /// Returns the localized string for "Upload File".
+  /// Message is "Upload File".
   static String get uploadFile => "upload_file".tr();
 
-  /// Returns the localized string for "Download File".
+  /// Message is "Download File".
   static String get downloadFile => "download_file".tr();
 
-  /// Returns the localized string for "View Details".
+  /// Message is "View Details".
   static String get viewDetails => "view_details".tr();
 
-  /// Returns the localized string for "Edit Profile".
+  /// Message is "Edit Profile".
   static String get editProfile => "edit_profile".tr();
 
-  /// Returns the localized string for "Change Password".
+  /// Message is "Change Password".
   static String get changePassword => "change_password".tr();
 
-  /// Returns the localized string for "Sign In".
+  /// Message is "Sign In".
   static String get signIn => "sign_in".tr();
 
-  /// Returns the localized string for "Sign Out".
+  /// Message is "Sign Out".
   static String get signOut => "sign_out".tr();
 
-  /// Returns the localized string for "Register".
+  /// Message is "Register".
   static String get register => "register".tr();
 
-  /// Returns the localized string for "Forgot Password".
+  /// Message is "Forgot Password".
   static String get forgotPassword => "forgot_password".tr();
 
-  /// Returns the localized string for "Remember Me".
+  /// Message is "Remember Me".
   static String get rememberMe => "remember_me".tr();
 
-  /// Returns the localized string for "Submit Query".
+  /// Message is "Submit Query".
   static String get submitQuery => "submit_query".tr();
 
-  /// Returns the localized string for "Contact Support".
+  /// Message is "Contact Support".
   static String get contactSupport => "contact_support".tr();
 
-  /// Returns the localized string for "Learn More".
+  /// Message is "Learn More".
   static String get learnMore => "learn_more".tr();
 
-  /// Returns the localized string for "Read More".
+  /// Message is "Read More".
   static String get readMore => "read_more".tr();
 
-  /// Returns the localized string for "View More".
+  /// Message is "View More".
   static String get viewMore => "view_more".tr();
 
-  /// Returns the localized string for "View Less".
+  /// Message is "View Less".
   static String get viewLess => "view_less".tr();
 
-  /// Returns the localized string for "Go to Home".
+  /// Message is "Go to Home".
   static String get goToHome => "go_to_home".tr();
 
-  /// Returns the localized string for "Download Now".
+  /// Message is "Download Now".
   static String get downloadNow => "download_now".tr();
 
-  /// Returns the localized string for "Try Again".
+  /// Message is "Try Again".
   static String get tryAgain => "try_again".tr();
 
-  /// Returns the localized string for "Select All".
+  /// Message is "Select All".
   static String get selectAll => "select_all".tr();
 
-  /// Returns the localized string for "Deselect All".
+  /// Message is "Deselect All".
   static String get deselectAll => "deselect_all".tr();
 
-  /// Returns the localized string for "Preview".
+  /// Message is "Preview".
   static String get preview => "preview".tr();
 
-  /// Returns the localized string for "Print".
+  /// Message is "Print".
   static String get print => "print".tr();
 
-  /// Returns the localized string for "Submit Feedback".
+  /// Message is "Submit Feedback".
   static String get submitFeedback => "submit_feedback".tr();
 
-  /// Returns the localized string for "Update Now".
+  /// Message is "Update Now".
   static String get updateNow => "update_now".tr();
 
-  /// Returns the localized string for "Upgrade".
+  /// Message is "Upgrade".
   static String get upgrade => "upgrade".tr();
 
-  /// Returns the localized string for "Subscribe".
+  /// Message is "Subscribe".
   static String get subscribe => "subscribe".tr();
 
-  /// Returns the localized string for "Unsubscribe".
+  /// Message is "Unsubscribe".
   static String get unsubscribe => "unsubscribe".tr();
 
-  /// Returns the localized string for "Order Now".
+  /// Message is "Order Now".
   static String get orderNow => "order_now".tr();
 
-  /// Returns the localized string for "Book Now".
+  /// Message is "Book Now".
   static String get bookNow => "book_now".tr();
 
-  /// Returns the localized string for "Add to Cart".
+  /// Message is "Add to Cart".
   static String get addToCart => "add_to_cart".tr();
 
-  /// Returns the localized string for "Checkout".
+  /// Message is "Checkout".
   static String get checkout => "checkout".tr();
 
-  /// Returns the localized string for "Proceed to Payment".
+  /// Message is "Proceed to Payment".
   static String get proceedToPayment => "proceed_to_payment".tr();
 
-  /// Returns the localized string for "Confirm Order".
+  /// Message is "Confirm Order".
   static String get confirmOrder => "confirm_order".tr();
 
-  /// Returns the localized string for "Place Order".
+  /// Message is "Place Order".
   static String get placeOrder => "place_order".tr();
 
-  /// Returns the localized string for "Track Order".
+  /// Message is "Track Order".
   static String get trackOrder => "track_order".tr();
 
-  /// Returns the localized string for "View Cart".
+  /// Message is "View Cart".
   static String get viewCart => "view_cart".tr();
 
-  /// Returns the localized string for "Continue Shopping".
+  /// Message is "Continue Shopping".
   static String get continueShopping => "continue_shopping".tr();
 
-  /// Returns the localized string for "Apply Coupon".
+  /// Message is "Apply Coupon".
   static String get applyCoupon => "apply_coupon".tr();
 
-  /// Returns the localized string for "Redeem".
+  /// Message is "Redeem".
   static String get redeem => "redeem".tr();
 
-  /// Returns the localized string for "Join Now".
+  /// Message is "Join Now".
   static String get joinNow => "join_now".tr();
 
-  /// Returns the localized string for "Sign Up".
+  /// Message is "Sign Up".
   static String get signUp => "sign_up".tr();
 
-  /// Returns the localized string for "Send Message".
+  /// Message is "Send Message".
   static String get sendMessage => "send_message".tr();
 
-  /// Returns the localized string for "Reply".
+  /// Message is "Reply".
   static String get reply => "reply".tr();
 
-  /// Returns the localized string for "Forward".
+  /// Message is "Forward".
   static String get forward => "forward".tr();
 
-  /// Returns the localized string for "Like".
+  /// Message is "Like".
   static String get like => "like".tr();
 
-  /// Returns the localized string for "Dislike".
+  /// Message is "Dislike".
   static String get dislike => "dislike".tr();
 
-  /// Returns the localized string for "Comment".
+  /// Message is "Comment".
   static String get comment => "comment".tr();
 
-  /// Returns the localized string for "Share Post".
+  /// Message is "Share Post".
   static String get sharePost => "share_post".tr();
 
-  /// Returns the localized string for "Follow".
+  /// Message is "Follow".
   static String get follow => "follow".tr();
 
-  /// Returns the localized string for "Unfollow".
+  /// Message is "Unfollow".
   static String get unfollow => "unfollow".tr();
 
-  /// Returns the localized string for "Upload Photo".
+  /// Message is "Upload Photo".
   static String get uploadPhoto => "upload_photo".tr();
 
-  /// Returns the localized string for "Upload Video".
+  /// Message is "Upload Video".
   static String get uploadVideo => "upload_video".tr();
 
-  /// Returns the localized string for "Save Changes".
+  /// Message is "Save Changes".
   static String get saveChanges => "save_changes".tr();
 
-  /// Returns the localized string for "View Profile".
+  /// Message is "View Profile".
   static String get viewProfile => "view_profile".tr();
 
-  /// Returns the localized string for "Edit Settings".
+  /// Message is "Edit Settings".
   static String get editSettings => "edit_settings".tr();
 
-  /// Returns the localized string for "Log In".
+  /// Message is "Log In".
   static String get logIn => "log_in".tr();
 
-  /// Returns the localized string for "Log Out".
+  /// Message is "Log Out".
   static String get logOut => "log_out".tr();
 
-  /// Returns the localized string for "Search Now".
+  /// Message is "Search Now".
   static String get searchNow => "search_now".tr();
 
-  /// Returns the localized string for "Cancel Subscription".
+  /// Message is "Cancel Subscription".
   static String get cancelSubscription => "cancel_subscription".tr();
 
-  /// Returns the localized string for "Contact Us".
+  /// Message is "Contact Us".
   static String get contactUs => "contact_us".tr();
 
-  /// Returns the localized string for "View Map".
+  /// Message is "View Map".
   static String get viewMap => "view_map".tr();
 
-  /// Returns the localized string for "Get Directions".
+  /// Message is "Get Directions".
   static String get getDirections => "get_directions".tr();
 
-  /// Returns the localized string for "Read Reviews".
+  /// Message is "Read Reviews".
   static String get readReviews => "read_reviews".tr();
 
-  /// Returns the localized string for "Write Review".
+  /// Message is "Write Review".
   static String get writeReview => "write_review".tr();
 
-  /// Returns the localized string for "Join Event".
+  /// Message is "Join Event".
   static String get joinEvent => "join_event".tr();
 
-  /// Returns the localized string for "Register Now".
+  /// Message is "Register Now".
   static String get registerNow => "register_now".tr();
 
-  /// Returns the localized string for "Accept Terms".
+  /// Message is "Accept Terms".
   static String get acceptTerms => "accept_terms".tr();
 
-  /// Returns the localized string for "Decline Terms".
+  /// Message is "Decline Terms".
   static String get declineTerms => "decline_terms".tr();
 
-  /// Returns the localized string for "Agree".
+  /// Message is "Agree".
   static String get agree => "agree".tr();
 
-  /// Returns the localized string for "Disagree".
+  /// Message is "Disagree".
   static String get disagree => "disagree".tr();
 
-  /// Returns the localized string for "New".
+  /// Message is "New".
   static String get new_ => "new".tr();
 
-  /// Returns the localized string for "Load".
+  /// Message is "Load".
   static String get load => "load".tr();
 
-  /// Returns the localized string for "Save As".
+  /// Message is "Save As".
   static String get saveAs => "save_as".tr();
 
-  /// Returns the localized string for "Export".
+  /// Message is "Export".
   static String get export => "export".tr();
 
-  /// Returns the localized string for "Import".
+  /// Message is "Import".
   static String get import => "import".tr();
 
-  /// Returns the localized string for "Connect".
+  /// Message is "Connect".
   static String get connect => "connect".tr();
 
-  /// Returns the localized string for "Disconnect".
+  /// Message is "Disconnect".
   static String get disconnect => "disconnect".tr();
 
-  /// Returns the localized string for "Maximize".
+  /// Message is "Maximize".
   static String get maximize => "maximize".tr();
 
-  /// Returns the localized string for "Minimize".
+  /// Message is "Minimize".
   static String get minimize => "minimize".tr();
 
-  /// Returns the localized string for "Restore".
+  /// Message is "Restore".
   static String get restore => "restore".tr();
 
-  /// Returns the localized string for "Settings".
+  /// Message is "Settings".
   static String get settings => "settings".tr();
 
-  /// Returns the localized string for "Preferences".
+  /// Message is "Preferences".
   static String get preferences => "preferences".tr();
 
-  /// Returns the localized string for "Options".
+  /// Message is "Options".
   static String get options => "options".tr();
 
-  /// Returns the localized string for "Help Center".
+  /// Message is "Help Center".
   static String get helpCenter => "help_center".tr();
 
-  /// Returns the localized string for "FAQ".
+  /// Message is "FAQ".
   static String get faq => "faq".tr();
 
-  /// Returns the localized string for "About Us".
+  /// Message is "About Us".
   static String get aboutUs => "about_us".tr();
 
-  /// Returns the localized string for "Feedback".
+  /// Message is "Feedback".
   static String get feedback => "feedback".tr();
 
-  /// Returns the localized string for "Send Feedback".
+  /// Message is "Send Feedback".
   static String get sendFeedback => "send_feedback".tr();
 
-  /// Returns the localized string for "Report Issue".
+  /// Message is "Report Issue".
   static String get reportIssue => "report_issue".tr();
 
-  /// Returns the localized string for "Check for Updates".
+  /// Message is "Check for Updates".
   static String get checkUpdates => "check_updates".tr();
 
-  /// Returns the localized string for "Language".
+  /// Message is "Language".
   static String get language => "language".tr();
 
-  /// Returns the localized string for "Themes".
+  /// Message is "Themes".
   static String get themes => "themes".tr();
 
-  /// Returns the localized string for "Dark Mode".
+  /// Message is "Dark Mode".
   static String get darkMode => "dark_mode".tr();
 
-  /// Returns the localized string for "Light Mode".
+  /// Message is "Light Mode".
   static String get lightMode => "light_mode".tr();
 
   static String get or => "Or".tr();
@@ -450,1807 +450,1810 @@ class SmartLocalize {
   //============== confirmation section ===================
 
   //=============== date section ==================
-  /// Returns the localized string for "Today".
+  /// Message is "Today".
   static String get today => "today".tr();
 
-  /// Returns the localized string for "Yesterday".
+  /// Message is "Yesterday".
   static String get yesterday => "yesterday".tr();
 
-  /// Returns the localized string for "Tomorrow".
+  /// Message is "Tomorrow".
   static String get tomorrow => "tomorrow".tr();
 
-  /// Returns the localized string for "Day".
+  /// Message is "Day".
   static String get day => "day".tr();
 
-  /// Returns the localized string for "Week".
+  /// Message is "Week".
   static String get week => "week".tr();
 
-  /// Returns the localized string for "Month".
+  /// Message is "Month".
   static String get month => "month".tr();
 
-  /// Returns the localized string for "Year".
+  /// Message is "Year".
   static String get year => "year".tr();
 
-  /// Returns the localized string for "YYYY-MM-DD".
+  /// Message is "YYYY-MM-DD".
   static String get dateFormat => "dateFormat".tr();
 
-  /// Returns the localized string for "HH:mm:ss".
+  /// Message is "HH:mm:ss".
   static String get timeFormat => "timeFormat".tr();
 
-  /// Returns the localized string for "MM/DD/YYYY".
+  /// Message is "MM/DD/YYYY".
   static String get shortDateFormat => "shortDateFormat".tr();
 
-  /// Returns the localized string for "MMMM D, YYYY".
+  /// Message is "MMMM D, YYYY".
   static String get longDateFormat => "longDateFormat".tr();
 
-  /// Returns the localized string for "YYYY-MM-DD HH:mm:ss".
+  /// Message is "YYYY-MM-DD HH:mm:ss".
   static String get dateTimeFormat => "dateTimeFormat".tr();
 
-  /// Returns the localized string for "Time Zone".
+  /// Message is "Time Zone".
   static String get timeZone => "timeZone".tr();
 
-  /// Returns the localized string for "Select Date".
+  /// Message is "Select Date".
   static String get selectDate => "selectDate".tr();
 
-  /// Returns the localized string for "Select Time".
+  /// Message is "Select Time".
   static String get selectTime => "selectTime".tr();
 
-  /// Returns the localized string for "From Date".
+  /// Message is "From Date".
   static String get fromDate => "fromDate".tr();
 
-  /// Returns the localized string for "To Date".
+  /// Message is "To Date".
   static String get toDate => "toDate".tr();
 
-  /// Returns the localized string for "Start Date".
+  /// Message is "Start Date".
   static String get startDate => "startDate".tr();
 
-  /// Returns the localized string for "End Date".
+  /// Message is "End Date".
   static String get endDate => "endDate".tr();
 
-  /// Returns the localized string for "Duration".
+  /// Message is "Duration".
   static String get duration => "duration".tr();
 
-  /// Returns the localized string for "Calendar".
+  /// Message is "Calendar".
   static String get calendar => "calendar".tr();
 
-  /// Returns the localized string for "Schedule".
+  /// Message is "Schedule".
   static String get schedule => "schedule".tr();
 
-  /// Returns the localized string for "Date Range".
+  /// Message is "Date Range".
   static String get dateRange => "dateRange".tr();
 
-  /// Returns the localized string for "All Day".
+  /// Message is "All Day".
   static String get allDay => "allDay".tr();
 
-  /// Returns the localized string for "Repeat".
+  /// Message is "Repeat".
   static String get repeat => "repeat".tr();
 
-  /// Returns the localized string for "Deadline".
+  /// Message is "Deadline".
   static String get deadline => "deadline".tr();
 
-  /// Returns the localized string for "Time Left".
+  /// Message is "Time Left".
   static String get timeLeft => "timeLeft".tr();
 
-  /// Returns the localized string for "Elapsed Time".
+  /// Message is "Elapsed Time".
   static String get elapsedTime => "elapsedTime".tr();
 
-  /// Returns the localized string for "Upcoming".
+  /// Message is "Upcoming".
   static String get upcoming => "upcoming".tr();
 
-  /// Returns the localized string for "Overdue".
+  /// Message is "Overdue".
   static String get overdue => "overdue".tr();
 
-  /// Returns the localized string for "Sunday".
+  /// Message is "Sunday".
   static String get sunday => "sunday".tr();
 
-  /// Returns the localized string for "Monday".
+  /// Message is "Monday".
   static String get monday => "monday".tr();
 
-  /// Returns the localized string for "Tuesday".
+  /// Message is "Tuesday".
   static String get tuesday => "tuesday".tr();
 
-  /// Returns the localized string for "Wednesday".
+  /// Message is "Wednesday".
   static String get wednesday => "wednesday".tr();
 
-  /// Returns the localized string for "Thursday".
+  /// Message is "Thursday".
   static String get thursday => "thursday".tr();
 
-  /// Returns the localized string for "Friday".
+  /// Message is "Friday".
   static String get friday => "friday".tr();
 
-  /// Returns the localized string for "Saturday".
+  /// Message is "Saturday".
   static String get saturday => "saturday".tr();
 
-  /// Returns the localized string for "January".
+  /// Message is "January".
   static String get january => "january".tr();
 
-  /// Returns the localized string for "February".
+  /// Message is "February".
   static String get february => "february".tr();
 
-  /// Returns the localized string for "March".
+  /// Message is "March".
   static String get march => "march".tr();
 
-  /// Returns the localized string for "April".
+  /// Message is "April".
   static String get april => "april".tr();
 
-  /// Returns the localized string for "May".
+  /// Message is "May".
   static String get may => "may".tr();
 
-  /// Returns the localized string for "June".
+  /// Message is "June".
   static String get june => "june".tr();
 
-  /// Returns the localized string for "July".
+  /// Message is "July".
   static String get july => "july".tr();
 
-  /// Returns the localized string for "August".
+  /// Message is "August".
   static String get august => "august".tr();
 
-  /// Returns the localized string for "September".
+  /// Message is "September".
   static String get september => "september".tr();
 
-  /// Returns the localized string for "October".
+  /// Message is "October".
   static String get october => "october".tr();
 
-  /// Returns the localized string for "November".
+  /// Message is "November".
   static String get november => "november".tr();
 
-  /// Returns the localized string for "December".
+  /// Message is "December".
   static String get december => "december".tr();
 
-  /// Returns the localized string for "Just now".
+  /// Message is "Just now".
   static String get justNow => "justNow".tr();
 
-  /// Returns the localized string for " minutes ago" with the given count.
+  /// Message is " minutes ago" with the given count.
   static String minutesAgo(int count) => "minutesAgo".tr();
 
-  /// Returns the localized string for " hours ago" with the given count.
+  /// Message is " hours ago" with the given count.
   static String hoursAgo(int count) => "hoursAgo".tr();
 
-  /// Returns the localized string for " days ago" with the given count.
+  /// Message is " days ago" with the given count.
   static String daysAgo(int count) => "daysAgo".tr();
 
-  /// Returns the localized string for " weeks ago" with the given count.
+  /// Message is " weeks ago" with the given count.
   static String weeksAgo(int count) => "weeksAgo".tr();
 
-  /// Returns the localized string for " months ago" with the given count.
+  /// Message is " months ago" with the given count.
   static String monthsAgo(int count) => "monthsAgo".tr();
 
-  /// Returns the localized string for " years ago" with the given count.
+  /// Message is " years ago" with the given count.
   static String yearsAgo(int count) => "yearsAgo".tr();
 
-  /// Returns the localized string for "In  minutes" with the given count.
+  /// Message is "In  minutes" with the given count.
   static String inMinutes(int count) => "inMinutes".tr();
 
-  /// Returns the localized string for "In  hours" with the given count.
+  /// Message is "In  hours" with the given count.
   static String inHours(int count) => "inHours".tr();
 
-  /// Returns the localized string for "In  days" with the given count.
+  /// Message is "In  days" with the given count.
   static String inDays(int count) => "inDays".tr();
 
-  /// Returns the localized string for "In  weeks" with the given count.
+  /// Message is "In  weeks" with the given count.
   static String inWeeks(int count) => "inWeeks".tr();
 
-  /// Returns the localized string for "In  months" with the given count.
+  /// Message is "In  months" with the given count.
   static String inMonths(int count) => "inMonths".tr();
 
-  /// Returns the localized string for "In  years" with the given count.
+  /// Message is "In  years" with the given count.
   static String inYears(int count) => "inYears".tr();
 
   // =============== labels section =================
-  /// Returns the localized string for "First Name".
+  /// Message is "First Name".
   static String get firstName => "first_name".tr();
 
-  /// Returns the localized string for "Last Name".
+  /// Message is "Last Name".
   static String get lastName => "last_name".tr();
 
-  /// Returns the localized string for "Last Name".
+  /// Message is "Last Name".
   static String get welcome => "welcome".tr();
 
-  /// Returns the localized string for "Middle Name".
+  /// Message is "Middle Name".
   static String get middleName => "middle_name".tr();
 
-  /// Returns the localized string for "Full Name".
+  /// Message is "Full Name".
   static String get fullName => "full_name".tr();
 
-  /// Returns the localized string for "Username".
+  /// Message is "Username".
   static String get username => "username".tr();
 
-  /// Returns the localized string for "Password".
+  /// Message is "Password".
   static String get password => "password".tr();
 
-  /// Returns the localized string for "Email".
+  /// Message is "Email".
   static String get email => "email".tr();
 
-  /// Returns the localized string for "Phone Number".
+  /// Message is "Phone Number".
   static String get phone => "phone".tr();
 
-  /// Returns the localized string for "Mobile Number".
+  /// Message is "Mobile Number".
   static String get mobile => "mobile".tr();
 
-  /// Returns the localized string for "Fax Number".
+  /// Message is "Fax Number".
   static String get fax => "fax".tr();
 
-  /// Returns the localized string for "Address".
+  /// Message is "Address".
   static String get address => "address".tr();
 
-  /// Returns the localized string for "Address Line 1".
+  /// Message is "Address Line 1".
   static String get addressLine1 => "address_line1".tr();
 
-  /// Returns the localized string for "Address Line 2".
+  /// Message is "Address Line 2".
   static String get addressLine2 => "address_line2".tr();
 
-  /// Returns the localized string for "City".
+  /// Message is "City".
   static String get city => "city".tr();
 
-  /// Returns the localized string for "State".
+  /// Message is "State".
   static String get state => "state".tr();
 
-  /// Returns the localized string for "Province".
+  /// Message is "Province".
   static String get province => "province".tr();
 
-  /// Returns the localized string for "Country".
+  /// Message is "Country".
   static String get country => "country".tr();
 
-  /// Returns the localized string for "ZIP Code".
+  /// Message is "ZIP Code".
   static String get zipCode => "zip_code".tr();
 
-  /// Returns the localized string for "Postal Code".
+  /// Message is "Postal Code".
   static String get postalCode => "postal_code".tr();
 
-  /// Returns the localized string for "Date of Birth".
+  /// Message is "Date of Birth".
   static String get dob => "dob".tr();
 
-  /// Returns the localized string for "Birthdate".
+  /// Message is "Birthdate".
   static String get birthdate => "birthdate".tr();
 
-  /// Returns the localized string for "Age".
+  /// Message is "Age".
   static String get age => "age".tr();
 
-  /// Returns the localized string for "Gender".
+  /// Message is "Gender".
   static String get gender => "gender".tr();
 
-  /// Returns the localized string for "Company".
+  /// Message is "Company".
   static String get company => "company".tr();
 
-  /// Returns the localized string for "Organization".
+  /// Message is "Organization".
   static String get organization => "organization".tr();
 
-  /// Returns the localized string for "Department".
+  /// Message is "Department".
   static String get department => "department".tr();
 
-  /// Returns the localized string for "Position".
+  /// Message is "Position".
   static String get position => "position".tr();
 
-  /// Returns the localized string for "Role".
+  /// Message is "Role".
   static String get role => "role".tr();
 
-  /// Returns the localized string for "Website".
+  /// Message is "Website".
   static String get website => "website".tr();
 
-  /// Returns the localized string for "URL".
+  /// Message is "URL".
   static String get url => "url".tr();
 
-  /// Returns the localized string for "Time Zone".
+  /// Message is "Time Zone".
   static String get timezone => "timezone".tr();
 
-  /// Returns the localized string for "Currency".
+  /// Message is "Currency".
   static String get currency => "currency".tr();
 
-  /// Returns the localized string for "Profile Picture".
+  /// Message is "Profile Picture".
   static String get profilePicture => "profile_picture".tr();
 
-  /// Returns the localized string for "Avatar".
+  /// Message is "Avatar".
   static String get avatar => "avatar".tr();
 
-  /// Returns the localized string for "Bio".
+  /// Message is "Bio".
   static String get bio => "bio".tr();
 
-  /// Returns the localized string for "Description".
+  /// Message is "Description".
   static String get description => "description".tr();
 
-  /// Returns the localized string for "Title".
+  /// Message is "Title".
   static String get title => "title".tr();
 
-  /// Returns the localized string for "Subtitle".
+  /// Message is "Subtitle".
   static String get subtitle => "subtitle".tr();
 
-  /// Returns the localized string for "Subject".
+  /// Message is "Subject".
   static String get subject => "subject".tr();
 
-  /// Returns the localized string for "Message".
+  /// Message is "Message".
   static String get message => "message".tr();
 
-  /// Returns the localized string for "Notes".
+  /// Message is "Notes".
   static String get notes => "notes".tr();
 
-  /// Returns the localized string for "Terms and Conditions".
+  /// Message is "Terms and Conditions".
   static String get termsConditions => "terms_conditions".tr();
 
-  /// Returns the localized string for "Privacy Policy".
+  /// Message is "Privacy Policy".
   static String get privacyPolicy => "privacy_policy".tr();
 
-  /// Returns the localized string for "Search".
+  /// Message is "Search".
   static String get search => "search".tr();
 
-  /// Returns the localized string for "Sort".
+  /// Message is "Sort".
   static String get sort => "sort".tr();
 
-  /// Returns the localized string for "Date".
+  /// Message is "Date".
   static String get date => "date".tr();
 
-  /// Returns the localized string for "Time".
+  /// Message is "Time".
   static String get time => "time".tr();
 
-  /// Returns the localized string for "Status".
+  /// Message is "Status".
   static String get status => "status".tr();
 
-  /// Returns the localized string for "Active".
+  /// Message is "Active".
   static String get active => "active".tr();
 
-  /// Returns the localized string for "Inactive".
+  /// Message is "Inactive".
   static String get inactive => "inactive".tr();
 
-  /// Returns the localized string for "Actions".
+  /// Message is "Actions".
   static String get actions => "actions".tr();
 
-  /// Returns the localized string for "Rating".
+  /// Message is "Rating".
   static String get rating => "rating".tr();
 
-  /// Returns the localized string for "Level".
+  /// Message is "Level".
   static String get level => "level".tr();
 
-  /// Returns the localized string for "Progress".
+  /// Message is "Progress".
   static String get progress => "progress".tr();
 
-  /// Returns the localized string for "File".
+  /// Message is "File".
   static String get file => "file".tr();
 
-  /// Returns the localized string for "Files".
+  /// Message is "Files".
   static String get files => "files".tr();
 
-  /// Returns the localized string for "Document".
+  /// Message is "Document".
   static String get document => "document".tr();
 
-  /// Returns the localized string for "Image".
+  /// Message is "Image".
   static String get image => "image".tr();
 
-  /// Returns the localized string for "Link".
+  /// Message is "Link".
   static String get link => "link".tr();
 
-  /// Returns the localized string for "Button".
+  /// Message is "Button".
   static String get button => "button".tr();
 
-  /// Returns the localized string for "Menu".
+  /// Message is "Menu".
   static String get menu => "menu".tr();
 
-  /// Returns the localized string for "Home".
+  /// Message is "Home".
   static String get home => "home".tr();
 
-  /// Returns the localized string for "Dashboard".
+  /// Message is "Dashboard".
   static String get dashboard => "dashboard".tr();
 
-  /// Returns the localized string for "Profile".
+  /// Message is "Profile".
   static String get profile => "profile".tr();
 
-  /// Returns the localized string for "Account".
+  /// Message is "Account".
   static String get account => "account".tr();
 
-  /// Returns the localized string for "Help".
+  /// Message is "Help".
   static String get help => "help".tr();
 
-  /// Returns the localized string for "Terms of Service".
+  /// Message is "Terms of Service".
   static String get termsOfService => "terms_of_service".tr();
 
-  /// Returns the localized string for "Notifications".
+  /// Message is "Notifications".
   static String get notifications => "notifications".tr();
 
-  /// Returns the localized string for "Messages".
+  /// Message is "Messages".
   static String get messages => "messages".tr();
 
-  /// Returns the localized string for "Inbox".
+  /// Message is "Inbox".
   static String get inbox => "inbox".tr();
 
-  /// Returns the localized string for "Outbox".
+  /// Message is "Outbox".
   static String get outbox => "outbox".tr();
 
-  /// Returns the localized string for "Sent".
+  /// Message is "Sent".
   static String get sent => "sent".tr();
 
-  /// Returns the localized string for "Drafts".
+  /// Message is "Drafts".
   static String get drafts => "drafts".tr();
 
-  /// Returns the localized string for "Trash".
+  /// Message is "Trash".
   static String get trash => "trash".tr();
 
-  /// Returns the localized string for "Archive".
+  /// Message is "Archive".
   static String get archive => "archive".tr();
 
-  /// Returns the localized string for "Old".
+  /// Message is "Old".
   static String get old => "old".tr();
 
-  /// Returns the localized string for "Recent".
+  /// Message is "Recent".
   static String get recent => "recent".tr();
 
-  /// Returns the localized string for "Popular".
+  /// Message is "Popular".
   static String get popular => "popular".tr();
 
-  /// Returns the localized string for "Category".
+  /// Message is "Category".
   static String get category => "category".tr();
 
-  /// Returns the localized string for "Categories".
+  /// Message is "Categories".
   static String get categories => "categories".tr();
 
-  /// Returns the localized string for "Tag".
+  /// Message is "Tag".
   static String get tag => "tag".tr();
 
-  /// Returns the localized string for "Tags".
+  /// Message is "Tags".
   static String get tags => "tags".tr();
 
-  /// Returns the localized string for "Item".
+  /// Message is "Item".
   static String get item => "item".tr();
 
-  /// Returns the localized string for "Items".
+  /// Message is "Items".
   static String get items => "items".tr();
 
-  /// Returns the localized string for "Product".
+  /// Message is "Product".
   static String get product => "product".tr();
 
-  /// Returns the localized string for "Products".
+  /// Message is "Products".
   static String get products => "products".tr();
 
-  /// Returns the localized string for "Service".
+  /// Message is "Service".
   static String get service => "service".tr();
 
-  /// Returns the localized string for "Services".
+  /// Message is "Services".
   static String get services => "services".tr();
 
-  /// Returns the localized string for "Price".
+  /// Message is "Price".
   static String get price => "price".tr();
 
-  /// Returns the localized string for "Quantity".
+  /// Message is "Quantity".
   static String get quantity => "quantity".tr();
 
-  /// Returns the localized string for "Total".
+  /// Message is "Total".
   static String get total => "total".tr();
 
-  /// Returns the localized string for "Subtotal".
+  /// Message is "Subtotal".
   static String get subtotal => "subtotal".tr();
 
-  /// Returns the localized string for "Tax".
+  /// Message is "Tax".
   static String get tax => "tax".tr();
 
-  /// Returns the localized string for "Discount".
+  /// Message is "Discount".
   static String get discount => "discount".tr();
 
-  /// Returns the localized string for "Order".
+  /// Message is "Order".
   static String get order => "order".tr();
 
-  /// Returns the localized string for "Orders".
+  /// Message is "Orders".
   static String get orders => "orders".tr();
 
-  /// Returns the localized string for "Invoice".
+  /// Message is "Invoice".
   static String get invoice => "invoice".tr();
 
-  /// Returns the localized string for "Billing".
+  /// Message is "Billing".
   static String get billing => "billing".tr();
 
-  /// Returns the localized string for "Shipping".
+  /// Message is "Shipping".
   static String get shipping => "shipping".tr();
 
-  /// Returns the localized string for "Payment".
+  /// Message is "Payment".
   static String get payment => "payment".tr();
 
-  /// Returns the localized string for "Method".
+  /// Message is "Method".
   static String get method => "method".tr();
 
-  /// Returns the localized string for "Card Number".
+  /// Message is "Card Number".
   static String get cardNumber => "card_number".tr();
 
-  /// Returns the localized string for "Expiration Date".
+  /// Message is "Expiration Date".
   static String get expirationDate => "expiration_date".tr();
 
-  /// Returns the localized string for "CVV".
+  /// Message is "CVV".
   static String get cvv => "cvv".tr();
 
-  /// Returns the localized string for "Bank".
+  /// Message is "Bank".
   static String get bank => "bank".tr();
 
-  /// Returns the localized string for "Account Number".
+  /// Message is "Account Number".
   static String get accountNumber => "account_number".tr();
 
-  /// Returns the localized string for "Routing Number".
+  /// Message is "Routing Number".
   static String get routingNumber => "routing_number".tr();
 
-  /// Returns the localized string for "Transaction".
+  /// Message is "Transaction".
   static String get transaction => "transaction".tr();
 
-  /// Returns the localized string for "Transactions".
+  /// Message is "Transactions".
   static String get transactions => "transactions".tr();
 
-  /// Returns the localized string for "History".
+  /// Message is "History".
   static String get history => "history".tr();
 
-  /// Returns the localized string for "Balance".
+  /// Message is "Balance".
   static String get balance => "balance".tr();
 
-  /// Returns the localized string for "Amount".
+  /// Message is "Amount".
   static String get amount => "amount".tr();
 
-  /// Returns the localized string for "Client".
+  /// Message is "Client".
   static String get client => "client".tr();
 
-  /// Returns the localized string for "Customer".
+  /// Message is "Customer".
   static String get customer => "customer".tr();
 
-  /// Returns the localized string for "Vendor".
+  /// Message is "Vendor".
   static String get vendor => "vendor".tr();
 
-  /// Returns the localized string for "Supplier".
+  /// Message is "Supplier".
   static String get supplier => "supplier".tr();
 
-  /// Returns the localized string for "Employee".
+  /// Message is "Employee".
   static String get employee => "employee".tr();
 
-  /// Returns the localized string for "Manager".
+  /// Message is "Manager".
   static String get manager => "manager".tr();
 
-  /// Returns the localized string for "Admin".
+  /// Message is "Admin".
   static String get admin => "admin".tr();
 
-  /// Returns the localized string for "User".
+  /// Message is "User".
   static String get user => "user".tr();
 
-  /// Returns the localized string for "Users".
+  /// Message is "Users".
   static String get users => "users".tr();
 
-  /// Returns the localized string for "Group".
+  /// Message is "Group".
   static String get group => "group".tr();
 
-  /// Returns the localized string for "Groups".
+  /// Message is "Groups".
   static String get groups => "groups".tr();
 
-  /// Returns the localized string for "Team".
+  /// Message is "Team".
   static String get team => "team".tr();
 
-  /// Returns the localized string for "Teams".
+  /// Message is "Teams".
   static String get teams => "teams".tr();
 
-  /// Returns the localized string for "Project".
+  /// Message is "Project".
   static String get project => "project".tr();
 
-  /// Returns the localized string for "Projects".
+  /// Message is "Projects".
   static String get projects => "projects".tr();
 
-  /// Returns the localized string for "Task".
+  /// Message is "Task".
   static String get task => "task".tr();
 
-  /// Returns the localized string for "Tasks".
+  /// Message is "Tasks".
   static String get tasks => "tasks".tr();
 
-  /// Returns the localized string for "Event".
+  /// Message is "Event".
   static String get event => "event".tr();
 
-  /// Returns the localized string for "Events".
+  /// Message is "Events".
   static String get events => "events".tr();
 
-  /// Returns the localized string for "Appointment".
+  /// Message is "Appointment".
   static String get appointment => "appointment".tr();
 
-  /// Returns the localized string for "Appointments".
+  /// Message is "Appointments".
   static String get appointments => "appointments".tr();
 
-  /// Returns the localized string for "Meeting".
+  /// Message is "Meeting".
   static String get meeting => "meeting".tr();
 
-  /// Returns the localized string for "Meetings".
+  /// Message is "Meetings".
   static String get meetings => "meetings".tr();
 
-  /// Returns the localized string for "Reminder".
+  /// Message is "Reminder".
   static String get reminder => "reminder".tr();
 
-  /// Returns the localized string for "Reminders".
+  /// Message is "Reminders".
   static String get reminders => "reminders".tr();
 
-  /// Returns the localized string for "Note".
+  /// Message is "Note".
   static String get note => "note".tr();
 
-  /// Returns the localized string for "Report".
+  /// Message is "Report".
   static String get report => "report".tr();
 
-  /// Returns the localized string for "Reports".
+  /// Message is "Reports".
   static String get reports => "reports".tr();
 
-  /// Returns the localized string for "Analytics".
+  /// Message is "Analytics".
   static String get analytics => "analytics".tr();
 
-  /// Returns the localized string for "Statistics".
+  /// Message is "Statistics".
   static String get statistics => "statistics".tr();
 
-  /// Returns the localized string for "Log".
+  /// Message is "Log".
   static String get log => "log".tr();
 
-  /// Returns the localized string for "Logs".
+  /// Message is "Logs".
   static String get logs => "logs".tr();
 
-  /// Returns the localized string for "Alert".
+  /// Message is "Alert".
   static String get alert => "alert".tr();
 
-  /// Returns the localized string for "Alerts".
+  /// Message is "Alerts".
   static String get alerts => "alerts".tr();
 
-  /// Returns the localized string for "Warning".
+  /// Message is "Warning".
   static String get warning => "warning".tr();
 
-  /// Returns the localized string for "Warnings".
+  /// Message is "Warnings".
   static String get warnings => "warnings".tr();
 
-  /// Returns the localized string for "Error".
+  /// Message is "Error".
   static String get error => "error".tr();
 
-  /// Returns the localized string for "Errors".
+  /// Message is "Errors".
   static String get errors => "errors".tr();
 
-  /// Returns the localized string for "Success".
+  /// Message is "Success".
   static String get success => "success".tr();
 
-  /// Returns the localized string for "Failure".
+  /// Message is "Failure".
   static String get failure => "failure".tr();
 
-  /// Returns the localized string for "Type".
+  /// Message is "Type".
   static String get type => "type".tr();
 
-  /// Returns the localized string for "Priority".
+  /// Message is "Priority".
   static String get priority => "priority".tr();
 
-  /// Returns the localized string for "License".
+  /// Message is "License".
   static String get license => "license".tr();
 
-  /// Returns the localized string for "Code".
+  /// Message is "Code".
   static String get code => "code".tr();
 
-  /// Returns the localized string for "Key".
+  /// Message is "Key".
   static String get key => "key".tr();
 
-  /// Returns the localized string for "Token".
+  /// Message is "Token".
   static String get token => "token".tr();
 
-  /// Returns the localized string for "Captcha".
+  /// Message is "Captcha".
   static String get captcha => "captcha".tr();
 
-  /// Returns the localized string for "Question".
+  /// Message is "Question".
   static String get question => "question".tr();
 
-  /// Returns the localized string for "Answer".
+  /// Message is "Answer".
   static String get answer => "answer".tr();
 
-  /// Returns the localized string for "Poll".
+  /// Message is "Poll".
   static String get poll => "poll".tr();
 
-  /// Returns the localized string for "Survey".
+  /// Message is "Survey".
   static String get survey => "survey".tr();
 
-  /// Returns the localized string for "Forum".
+  /// Message is "Forum".
   static String get forum => "forum".tr();
 
-  /// Returns the localized string for "Blog".
+  /// Message is "Blog".
   static String get blog => "blog".tr();
 
-  /// Returns the localized string for "Post".
+  /// Message is "Post".
   static String get post => "post".tr();
 
-  /// Returns the localized string for "Posts".
+  /// Message is "Posts".
   static String get posts => "posts".tr();
 
-  /// Returns the localized string for "Comments".
+  /// Message is "Comments".
   static String get comments => "comments".tr();
 
-  /// Returns the localized string for "Likes".
+  /// Message is "Likes".
   static String get likes => "likes".tr();
 
-  /// Returns the localized string for "Shares".
+  /// Message is "Shares".
   static String get shares => "shares".tr();
 
-  /// Returns the localized string for "Followers".
+  /// Message is "Followers".
   static String get followers => "followers".tr();
 
-  /// Returns the localized string for "Following".
+  /// Message is "Following".
   static String get following => "following".tr();
 
-  /// Returns the localized string for "Friend".
+  /// Message is "Friend".
   static String get friend => "friend".tr();
 
-  /// Returns the localized string for "Friends".
+  /// Message is "Friends".
   static String get friends => "friends".tr();
 
-  /// Returns the localized string for "Chat".
+  /// Message is "Chat".
   static String get chat => "chat".tr();
 
-  /// Returns the localized string for "Chats".
+  /// Message is "Chats".
   static String get chats => "chats".tr();
 
-  /// Returns the localized string for "Call".
+  /// Message is "Call".
   static String get call => "call".tr();
 
-  /// Returns the localized string for "Calls".
+  /// Message is "Calls".
   static String get calls => "calls".tr();
 
-  /// Returns the localized string for "Video".
+  /// Message is "Video".
   static String get video => "video".tr();
 
-  /// Returns the localized string for "Audio".
+  /// Message is "Audio".
   static String get audio => "audio".tr();
 
-  /// Returns the localized string for "Camera".
+  /// Message is "Camera".
   static String get camera => "camera".tr();
 
-  /// Returns the localized string for "Microphone".
+  /// Message is "Microphone".
   static String get microphone => "microphone".tr();
 
-  /// Returns the localized string for "Location".
+  /// Message is "Location".
   static String get location => "location".tr();
 
-  /// Returns the localized string for "GPS".
+  /// Message is "GPS".
   static String get gps => "gps".tr();
 
-  /// Returns the localized string for "Map".
+  /// Message is "Map".
   static String get map => "map".tr();
 
-  /// Returns the localized string for "Navigation".
+  /// Message is "Navigation".
   static String get navigation => "navigation".tr();
 
-  /// Returns the localized string for "Weather".
+  /// Message is "Weather".
   static String get weather => "weather".tr();
 
-  /// Returns the localized string for "Temperature".
+  /// Message is "Temperature".
   static String get temperature => "temperature".tr();
 
-  /// Returns the localized string for "Humidity".
+  /// Message is "Humidity".
   static String get humidity => "humidity".tr();
 
-  /// Returns the localized string for "Pressure".
+  /// Message is "Pressure".
   static String get pressure => "pressure".tr();
 
-  /// Returns the localized string for "Wind".
+  /// Message is "Wind".
   static String get wind => "wind".tr();
 
-  /// Returns the localized string for "News".
+  /// Message is "News".
   static String get news => "news".tr();
 
-  /// Returns the localized string for "Article".
+  /// Message is "Article".
   static String get article => "article".tr();
 
-  /// Returns the localized string for "Articles".
+  /// Message is "Articles".
   static String get articles => "articles".tr();
 
-  /// Returns the localized string for "Media".
+  /// Message is "Media".
   static String get media => "media".tr();
 
-  /// Returns the localized string for "Gallery".
+  /// Message is "Gallery".
   static String get gallery => "gallery".tr();
 
-  /// Returns the localized string for "Album".
+  /// Message is "Album".
   static String get album => "album".tr();
 
-  /// Returns the localized string for "Music".
+  /// Message is "Music".
   static String get music => "music".tr();
 
-  /// Returns the localized string for "Song".
+  /// Message is "Song".
   static String get song => "song".tr();
 
-  /// Returns the localized string for "Songs".
+  /// Message is "Songs".
   static String get songs => "songs".tr();
 
-  /// Returns the localized string for "Playlist".
+  /// Message is "Playlist".
   static String get playlist => "playlist".tr();
 
-  /// Returns the localized string for "Movie".
+  /// Message is "Movie".
   static String get movie => "movie".tr();
 
-  /// Returns the localized string for "Movies".
+  /// Message is "Movies".
   static String get movies => "movies".tr();
 
-  /// Returns the localized string for "Book".
+  /// Message is "Book".
   static String get book => "book".tr();
 
-  /// Returns the localized string for "Books".
+  /// Message is "Books".
   static String get books => "books".tr();
 
-  /// Returns the localized string for "Author".
+  /// Message is "Author".
   static String get author => "author".tr();
 
-  /// Returns the localized string for "Authors".
+  /// Message is "Authors".
   static String get authors => "authors".tr();
 
-  /// Returns the localized string for "Genre".
+  /// Message is "Genre".
   static String get genre => "genre".tr();
 
-  /// Returns the localized string for "Genres".
+  /// Message is "Genres".
   static String get genres => "genres".tr();
 
-  /// Returns the localized string for "Game".
+  /// Message is "Game".
   static String get game => "game".tr();
 
-  /// Returns the localized string for "Games".
+  /// Message is "Games".
   static String get games => "games".tr();
 
-  /// Returns the localized string for "Score".
+  /// Message is "Score".
   static String get score => "score".tr();
 
-  /// Returns the localized string for "Scores".
+  /// Message is "Scores".
   static String get scores => "scores".tr();
 
-  /// Returns the localized string for "Achievement".
+  /// Message is "Achievement".
   static String get achievement => "achievement".tr();
 
-  /// Returns the localized string for "Achievements".
+  /// Message is "Achievements".
   static String get achievements => "achievements".tr();
 
-  /// Returns the localized string for "Badge".
+  /// Message is "Badge".
   static String get badge => "badge".tr();
 
-  /// Returns the localized string for "Badges".
+  /// Message is "Badges".
   static String get badges => "badges".tr();
 
-  /// Returns the localized string for "Rank".
+  /// Message is "Rank".
   static String get rank => "rank".tr();
 
-  /// Returns the localized string for "Ranks".
+  /// Message is "Ranks".
   static String get ranks => "ranks".tr();
 
-  /// Returns the localized string for "Leaderboard".
+  /// Message is "Leaderboard".
   static String get leaderboard => "leaderboard".tr();
 
-  /// Returns the localized string for "Challenge".
+  /// Message is "Challenge".
   static String get challenge => "challenge".tr();
 
-  /// Returns the localized string for "Challenges".
+  /// Message is "Challenges".
   static String get challenges => "challenges".tr();
 
-  /// Returns the localized string for "Trophy".
+  /// Message is "Trophy".
   static String get trophy => "trophy".tr();
 
-  /// Returns the localized string for "Trophies".
+  /// Message is "Trophies".
   static String get trophies => "trophies".tr();
 
-  /// Returns the localized string for "Reward".
+  /// Message is "Reward".
   static String get reward => "reward".tr();
 
-  /// Returns the localized string for "Rewards".
+  /// Message is "Rewards".
   static String get rewards => "rewards".tr();
 
-  /// Returns the localized string for "Points".
+  /// Message is "Points".
   static String get points => "points".tr();
 
-  /// Returns the localized string for "High Score".
+  /// Message is "High Score".
   static String get highScore => "high_score".tr();
 
-  /// Returns the localized string for "About".
+  /// Message is "About".
   static String get about => "about".tr();
 
-  /// Returns the localized string for "Terms".
+  /// Message is "Terms".
   static String get terms => "terms".tr();
 
-  /// Returns the localized string for "Privacy".
+  /// Message is "Privacy".
   static String get privacy => "privacy".tr();
 
-  /// Returns the localized string for "Contact".
+  /// Message is "Contact".
   static String get contact => "contact".tr();
 
-  /// Returns the localized string for "Login".
+  /// Message is "Login".
   static String get login => "login".tr();
 
-  /// Returns the localized string for "PIN".
+  /// Message is "PIN".
   static String get pin => "pin".tr();
 
-  /// Returns the localized string for "One-Time Password".
+  /// Message is "One-Time Password".
   static String get otp => "otp".tr();
 
-  /// Returns the localized string for "Verification Code".
+  /// Message is "Verification Code".
   static String get verificationCode => "verification_code".tr();
 
-  /// Returns the localized string for "Frequency".
+  /// Message is "Frequency".
   static String get frequency => "frequency".tr();
 
-  /// Returns the localized string for "Interval".
+  /// Message is "Interval".
   static String get interval => "interval".tr();
 
-  /// Returns the localized string for "Start Time".
+  /// Message is "Start Time".
   static String get startTime => "start_time".tr();
 
-  /// Returns the localized string for "End Time".
+  /// Message is "End Time".
   static String get endTime => "end_time".tr();
 
-  /// Returns the localized string for "Due Date".
+  /// Message is "Due Date".
   static String get dueDate => "due_date".tr();
 
-  /// Returns the localized string for "Assignee".
+  /// Message is "Assignee".
   static String get assignee => "assignee".tr();
 
-  /// Returns the localized string for "Owner".
+  /// Message is "Owner".
   static String get owner => "owner".tr();
 
-  /// Returns the localized string for "Creator".
+  /// Message is "Creator".
   static String get creator => "creator".tr();
 
-  /// Returns the localized string for "Participants".
+  /// Message is "Participants".
   static String get participants => "participants".tr();
 
-  /// Returns the localized string for "Attendees".
+  /// Message is "Attendees".
   static String get attendees => "attendees".tr();
 
-  /// Returns the localized string for "Viewer".
+  /// Message is "Viewer".
   static String get viewer => "viewer".tr();
 
-  /// Returns the localized string for "Editor".
+  /// Message is "Editor".
   static String get editor => "editor".tr();
 
-  /// Returns the localized string for "Administrator".
+  /// Message is "Administrator".
   static String get administrator => "administrator".tr();
 
-  /// Returns the localized string for "Supervisor".
+  /// Message is "Supervisor".
   static String get supervisor => "supervisor".tr();
 
-  /// Returns the localized string for "Director".
+  /// Message is "Director".
   static String get director => "director".tr();
 
-  /// Returns the localized string for "Executive".
+  /// Message is "Executive".
   static String get executive => "executive".tr();
 
-  /// Returns the localized string for "Member".
+  /// Message is "Member".
   static String get member => "member".tr();
 
-  /// Returns the localized string for "Members".
+  /// Message is "Members".
   static String get members => "members".tr();
 
-  /// Returns the localized string for "Subscriber".
+  /// Message is "Subscriber".
   static String get subscriber => "subscriber".tr();
 
-  /// Returns the localized string for "Subscriptions".
+  /// Message is "Subscriptions".
   static String get subscriptions => "subscriptions".tr();
 
-  /// Returns the localized string for "Plan".
+  /// Message is "Plan".
   static String get plan => "plan".tr();
 
-  /// Returns the localized string for "Plans".
+  /// Message is "Plans".
   static String get plans => "plans".tr();
 
-  /// Returns the localized string for "Package".
+  /// Message is "Package".
   static String get package => "package".tr();
 
-  /// Returns the localized string for "Packages".
+  /// Message is "Packages".
   static String get packages => "packages".tr();
 
-  /// Returns the localized string for "License Key".
+  /// Message is "License Key".
   static String get licenseKey => "license_key".tr();
 
-  /// Returns the localized string for "Activation Code".
+  /// Message is "Activation Code".
   static String get activationCode => "activation_code".tr();
 
-  /// Returns the localized string for "Serial Number".
+  /// Message is "Serial Number".
   static String get serialNumber => "serial_number".tr();
 
-  /// Returns the localized string for "Customer ID".
+  /// Message is "Number".
+  static String get number => "number_".tr();
+
+  /// Message is "Customer ID".
   static String get customerId => "customer_id".tr();
 
-  /// Returns the localized string for "Order ID".
+  /// Message is "Order ID".
   static String get orderId => "order_id".tr();
 
-  /// Returns the localized string for "Invoice ID".
+  /// Message is "Invoice ID".
   static String get invoiceId => "invoice_id".tr();
 
-  /// Returns the localized string for "Transaction ID".
+  /// Message is "Transaction ID".
   static String get transactionId => "transaction_id".tr();
 
-  /// Returns the localized string for "Reference Number".
+  /// Message is "Reference Number".
   static String get referenceNumber => "reference_number".tr();
 
-  /// Returns the localized string for "Tracking Number".
+  /// Message is "Tracking Number".
   static String get trackingNumber => "tracking_number".tr();
 
-  /// Returns the localized string for "Shipment".
+  /// Message is "Shipment".
   static String get shipment => "shipment".tr();
 
-  /// Returns the localized string for "Shipments".
+  /// Message is "Shipments".
   static String get shipments => "shipments".tr();
 
-  /// Returns the localized string for "Delivery".
+  /// Message is "Delivery".
   static String get delivery => "delivery".tr();
 
-  /// Returns the localized string for "Deliveries".
+  /// Message is "Deliveries".
   static String get deliveries => "deliveries".tr();
 
-  /// Returns the localized string for "Pickup".
+  /// Message is "Pickup".
   static String get pickup => "pickup".tr();
 
-  /// Returns the localized string for "Drop-off".
+  /// Message is "Drop-off".
   static String get dropoff => "dropoff".tr();
 
-  /// Returns the localized string for "Confirmation".
+  /// Message is "Confirmation".
   static String get confirmation => "confirmation".tr();
 
-  /// Returns the localized string for "Confirmation Code".
+  /// Message is "Confirmation Code".
   static String get confirmationCode => "confirmation_code".tr();
 
-  /// Returns the localized string for "Booking".
+  /// Message is "Booking".
   static String get booking => "booking".tr();
 
-  /// Returns the localized string for "Bookings".
+  /// Message is "Bookings".
   static String get bookings => "bookings".tr();
 
-  /// Returns the localized string for "Reservation".
+  /// Message is "Reservation".
   static String get reservation => "reservation".tr();
 
-  /// Returns the localized string for "Reservations".
+  /// Message is "Reservations".
   static String get reservations => "reservations".tr();
 
-  /// Returns the localized string for "Seat".
+  /// Message is "Seat".
   static String get seat => "seat".tr();
 
-  /// Returns the localized string for "Seats".
+  /// Message is "Seats".
   static String get seats => "seats".tr();
 
-  /// Returns the localized string for "Passenger".
+  /// Message is "Passenger".
   static String get passenger => "passenger".tr();
 
-  /// Returns the localized string for "Passengers".
+  /// Message is "Passengers".
   static String get passengers => "passengers".tr();
 
-  /// Returns the localized string for "Flight".
+  /// Message is "Flight".
   static String get flight => "flight".tr();
 
-  /// Returns the localized string for "Flights".
+  /// Message is "Flights".
   static String get flights => "flights".tr();
 
-  /// Returns the localized string for "Departure".
+  /// Message is "Departure".
   static String get departure => "departure".tr();
 
-  /// Returns the localized string for "Arrival".
+  /// Message is "Arrival".
   static String get arrival => "arrival".tr();
 
-  /// Returns the localized string for "Gate".
+  /// Message is "Gate".
   static String get gate => "gate".tr();
 
-  /// Returns the localized string for "Terminal".
+  /// Message is "Terminal".
   static String get terminal => "terminal".tr();
 
-  /// Returns the localized string for "Baggage".
+  /// Message is "Baggage".
   static String get baggage => "baggage".tr();
 
-  /// Returns the localized string for "Luggage".
+  /// Message is "Luggage".
   static String get luggage => "luggage".tr();
 
-  /// Returns the localized string for "Check-in".
+  /// Message is "Check-in".
   static String get checkIn => "check_in".tr();
 
-  /// Returns the localized string for "Check-out".
+  /// Message is "Check-out".
   static String get checkOut => "check_out".tr();
 
-  /// Returns the localized string for "Room".
+  /// Message is "Room".
   static String get room => "room".tr();
 
-  /// Returns the localized string for "Rooms".
+  /// Message is "Rooms".
   static String get rooms => "rooms".tr();
 
-  /// Returns the localized string for "Guest".
+  /// Message is "Guest".
   static String get guest => "guest".tr();
 
-  /// Returns the localized string for "Guests".
+  /// Message is "Guests".
   static String get guests => "guests".tr();
 
-  /// Returns the localized string for "Hotel".
+  /// Message is "Hotel".
   static String get hotel => "hotel".tr();
 
-  /// Returns the localized string for "Hotels".
+  /// Message is "Hotels".
   static String get hotels => "hotels".tr();
 
-  /// Returns the localized string for "Car".
+  /// Message is "Car".
   static String get car => "car".tr();
 
-  /// Returns the localized string for "Cars".
+  /// Message is "Cars".
   static String get cars => "cars".tr();
 
-  /// Returns the localized string for "Rental".
+  /// Message is "Rental".
   static String get rental => "rental".tr();
 
-  /// Returns the localized string for "Rentals".
+  /// Message is "Rentals".
   static String get rentals => "rentals".tr();
 
-  /// Returns the localized string for "Driver".
+  /// Message is "Driver".
   static String get driver => "driver".tr();
 
-  /// Returns the localized string for "Drivers".
+  /// Message is "Drivers".
   static String get drivers => "drivers".tr();
 
-  /// Returns the localized string for "Vehicle".
+  /// Message is "Vehicle".
   static String get vehicle => "vehicle".tr();
 
-  /// Returns the localized string for "Vehicles".
+  /// Message is "Vehicles".
   static String get vehicles => "vehicles".tr();
 
-  /// Returns the localized string for "License Plate".
+  /// Message is "License Plate".
   static String get licensePlate => "license_plate".tr();
 
-  /// Returns the localized string for "Insurance".
+  /// Message is "Insurance".
   static String get insurance => "insurance".tr();
 
-  /// Returns the localized string for "Policy".
+  /// Message is "Policy".
   static String get policy => "policy".tr();
 
-  /// Returns the localized string for "Policies".
+  /// Message is "Policies".
   static String get policies => "policies".tr();
 
-  /// Returns the localized string for "Claim".
+  /// Message is "Claim".
   static String get claim => "claim".tr();
 
-  /// Returns the localized string for "Claims".
+  /// Message is "Claims".
   static String get claims => "claims".tr();
 
-  /// Returns the localized string for "Coverage".
+  /// Message is "Coverage".
   static String get coverage => "coverage".tr();
 
-  /// Returns the localized string for "Premium".
+  /// Message is "Premium".
   static String get premium => "premium".tr();
 
-  /// Returns the localized string for "Deductible".
+  /// Message is "Deductible".
   static String get deductible => "deductible".tr();
 
-  /// Returns the localized string for "Beneficiary".
+  /// Message is "Beneficiary".
   static String get beneficiary => "beneficiary".tr();
 
-  /// Returns the localized string for "Beneficiaries".
+  /// Message is "Beneficiaries".
   static String get beneficiaries => "beneficiaries".tr();
 
-  /// Returns the localized string for "Bank Account".
+  /// Message is "Bank Account".
   static String get bankAccount => "bank_account".tr();
 
-  /// Returns the localized string for "Savings Account".
+  /// Message is "Savings Account".
   static String get savingsAccount => "savings_account".tr();
 
-  /// Returns the localized string for "Checking Account".
+  /// Message is "Checking Account".
   static String get checkingAccount => "checking_account".tr();
 
-  /// Returns the localized string for "Credit Card".
+  /// Message is "Credit Card".
   static String get creditCard => "credit_card".tr();
 
-  /// Returns the localized string for "Debit Card".
+  /// Message is "Debit Card".
   static String get debitCard => "debit_card".tr();
 
-  /// Returns the localized string for "Loan".
+  /// Message is "Loan".
   static String get loan => "loan".tr();
 
-  /// Returns the localized string for "Loans".
+  /// Message is "Loans".
   static String get loans => "loans".tr();
 
-  /// Returns the localized string for "Mortgage".
+  /// Message is "Mortgage".
   static String get mortgage => "mortgage".tr();
 
-  /// Returns the localized string for "Investment".
+  /// Message is "Investment".
   static String get investment => "investment".tr();
 
-  /// Returns the localized string for "Investments".
+  /// Message is "Investments".
   static String get investments => "investments".tr();
 
-  /// Returns the localized string for "Portfolio".
+  /// Message is "Portfolio".
   static String get portfolio => "portfolio".tr();
 
-  /// Returns the localized string for "Stock".
+  /// Message is "Stock".
   static String get stock => "stock".tr();
 
-  /// Returns the localized string for "Stocks".
+  /// Message is "Stocks".
   static String get stocks => "stocks".tr();
 
-  /// Returns the localized string for "Bond".
+  /// Message is "Bond".
   static String get bond => "bond".tr();
 
-  /// Returns the localized string for "Bonds".
+  /// Message is "Bonds".
   static String get bonds => "bonds".tr();
 
-  /// Returns the localized string for "Fund".
+  /// Message is "Fund".
   static String get fund => "fund".tr();
 
-  /// Returns the localized string for "Funds".
+  /// Message is "Funds".
   static String get funds => "funds".tr();
 
-  /// Returns the localized string for "Asset".
+  /// Message is "Asset".
   static String get asset => "asset".tr();
 
-  /// Returns the localized string for "Assets".
+  /// Message is "Assets".
   static String get assets => "assets".tr();
 
-  /// Returns the localized string for "Liability".
+  /// Message is "Liability".
   static String get liability => "liability".tr();
 
-  /// Returns the localized string for "Liabilities".
+  /// Message is "Liabilities".
   static String get liabilities => "liabilities".tr();
 
-  /// Returns the localized string for "Equity".
+  /// Message is "Equity".
   static String get equity => "equity".tr();
 
-  /// Returns the localized string for "Capital".
+  /// Message is "Capital".
   static String get capital => "capital".tr();
 
-  /// Returns the localized string for "Profit".
+  /// Message is "Profit".
   static String get profit => "profit".tr();
 
-  /// Returns the localized string for "Loss".
+  /// Message is "Loss".
   static String get loss => "loss".tr();
 
-  /// Returns the localized string for "Revenue".
+  /// Message is "Revenue".
   static String get revenue => "revenue".tr();
 
-  /// Returns the localized string for "Expense".
+  /// Message is "Expense".
   static String get expense => "expense".tr();
 
-  /// Returns the localized string for "Expenses".
+  /// Message is "Expenses".
   static String get expenses => "expenses".tr();
 
-  /// Returns the localized string for "Budget".
+  /// Message is "Budget".
   static String get budget => "budget".tr();
 
-  /// Returns the localized string for "Forecast".
+  /// Message is "Forecast".
   static String get forecast => "forecast".tr();
 
-  /// Returns the localized string for "Audit".
+  /// Message is "Audit".
   static String get audit => "audit".tr();
 
-  /// Returns the localized string for "Compliance".
+  /// Message is "Compliance".
   static String get compliance => "compliance".tr();
 
-  /// Returns the localized string for "Taxes".
+  /// Message is "Taxes".
   static String get taxes => "taxes".tr();
 
-  /// Returns the localized string for "Salary".
+  /// Message is "Salary".
   static String get salary => "salary".tr();
 
-  /// Returns the localized string for "Wage".
+  /// Message is "Wage".
   static String get wage => "wage".tr();
 
-  /// Returns the localized string for "Payroll".
+  /// Message is "Payroll".
   static String get payroll => "payroll".tr();
 
-  /// Returns the localized string for "Benefits".
+  /// Message is "Benefits".
   static String get benefits => "benefits".tr();
 
-  /// Returns the localized string for "Human Resources".
+  /// Message is "Human Resources".
   static String get humanResources => "human_resources".tr();
 
-  /// Returns the localized string for "Recruitment".
+  /// Message is "Recruitment".
   static String get recruitment => "recruitment".tr();
 
-  /// Returns the localized string for "Training".
+  /// Message is "Training".
   static String get training => "training".tr();
 
-  /// Returns the localized string for "Development".
+  /// Message is "Development".
   static String get development => "development".tr();
 
-  /// Returns the localized string for "Performance".
+  /// Message is "Performance".
   static String get performance => "performance".tr();
 
-  /// Returns the localized string for "Evaluation".
+  /// Message is "Evaluation".
   static String get evaluation => "evaluation".tr();
 
-  /// Returns the localized string for "Promotion".
+  /// Message is "Promotion".
   static String get promotion => "promotion".tr();
 
-  /// Returns the localized string for "Demotion".
+  /// Message is "Demotion".
   static String get demotion => "demotion".tr();
 
-  /// Returns the localized string for "Termination".
+  /// Message is "Termination".
   static String get termination => "termination".tr();
 
-  /// Returns the localized string for "Resignation".
+  /// Message is "Resignation".
   static String get resignation => "resignation".tr();
 
-  /// Returns the localized string for "Retirement".
+  /// Message is "Retirement".
   static String get retirement => "retirement".tr();
 
-  /// Returns the localized string for "Leave".
+  /// Message is "Leave".
   static String get leave => "leave".tr();
 
-  /// Returns the localized string for "Vacation".
+  /// Message is "Vacation".
   static String get vacation => "vacation".tr();
 
-  /// Returns the localized string for "Holiday".
+  /// Message is "Holiday".
   static String get holiday => "holiday".tr();
 
-  /// Returns the localized string for "Sick Leave".
+  /// Message is "Sick Leave".
   static String get sickLeave => "sick_leave".tr();
 
-  /// Returns the localized string for "Maternity Leave".
+  /// Message is "Maternity Leave".
   static String get maternityLeave => "maternity_leave".tr();
 
-  /// Returns the localized string for "Paternity Leave".
+  /// Message is "Paternity Leave".
   static String get paternityLeave => "paternity_leave".tr();
 
-  /// Returns the localized string for "Attendance".
+  /// Message is "Attendance".
   static String get attendance => "attendance".tr();
 
-  /// Returns the localized string for "Timesheet".
+  /// Message is "Timesheet".
   static String get timesheet => "timesheet".tr();
 
-  /// Returns the localized string for "Shift".
+  /// Message is "Shift".
   static String get shift => "shift".tr();
 
-  /// Returns the localized string for "Overtime".
+  /// Message is "Overtime".
   static String get overtime => "overtime".tr();
 
-  /// Returns the localized string for "Break".
+  /// Message is "Break".
   static String get break_ => "break".tr();
 
-  /// Returns the localized string for "Lunchtime".
+  /// Message is "Lunchtime".
   static String get lunchtime => "lunchtime".tr();
 
-  /// Returns the localized string for "Compensation".
+  /// Message is "Compensation".
   static String get compensation => "compensation".tr();
 
-  /// Returns the localized string for "Bonus".
+  /// Message is "Bonus".
   static String get bonus => "bonus".tr();
 
-  /// Returns the localized string for "Commission".
+  /// Message is "Commission".
   static String get commission => "commission".tr();
 
-  /// Returns the localized string for "Incentive".
+  /// Message is "Incentive".
   static String get incentive => "incentive".tr();
 
-  /// Returns the localized string for "Allowance".
+  /// Message is "Allowance".
   static String get allowance => "allowance".tr();
 
-  /// Returns the localized string for "Deduction".
+  /// Message is "Deduction".
   static String get deduction => "deduction".tr();
 
-  /// Returns the localized string for "Workflow".
+  /// Message is "Workflow".
   static String get workflow => "workflow".tr();
 
-  /// Returns the localized string for "Process".
+  /// Message is "Process".
   static String get process => "process".tr();
 
-  /// Returns the localized string for "Procedure".
+  /// Message is "Procedure".
   static String get procedure => "procedure".tr();
 
-  /// Returns the localized string for "Manual".
+  /// Message is "Manual".
   static String get manual => "manual".tr();
 
-  /// Returns the localized string for "Guide".
+  /// Message is "Guide".
   static String get guide => "guide".tr();
 
-  /// Returns the localized string for "Documentation".
+  /// Message is "Documentation".
   static String get documentation => "documentation".tr();
 
-  /// Returns the localized string for "Specification".
+  /// Message is "Specification".
   static String get specification => "specification".tr();
 
-  /// Returns the localized string for "Requirement".
+  /// Message is "Requirement".
   static String get requirement => "requirement".tr();
 
-  /// Returns the localized string for "Design".
+  /// Message is "Design".
   static String get design => "design".tr();
 
-  /// Returns the localized string for "Deployment".
+  /// Message is "Deployment".
   static String get deployment => "deployment".tr();
 
-  /// Returns the localized string for "Maintenance".
+  /// Message is "Maintenance".
   static String get maintenance => "maintenance".tr();
 
-  /// Returns the localized string for "Support".
+  /// Message is "Support".
   static String get support => "support".tr();
 
-  /// Returns the localized string for "Issue".
+  /// Message is "Issue".
   static String get issue => "issue".tr();
 
-  /// Returns the localized string for "Issues".
+  /// Message is "Issues".
   static String get issues => "issues".tr();
 
-  /// Returns the localized string for "Bug".
+  /// Message is "Bug".
   static String get bug => "bug".tr();
 
-  /// Returns the localized string for "Bugs".
+  /// Message is "Bugs".
   static String get bugs => "bugs".tr();
 
-  /// Returns the localized string for "Ticket".
+  /// Message is "Ticket".
   static String get ticket => "ticket".tr();
 
-  /// Returns the localized string for "Tickets".
+  /// Message is "Tickets".
   static String get tickets => "tickets".tr();
 
-  /// Returns the localized string for "Requests".
+  /// Message is "Requests".
   static String get requests => "requests".tr();
 
-  /// Returns the localized string for "Incident".
+  /// Message is "Incident".
   static String get incident => "incident".tr();
 
-  /// Returns the localized string for "Incidents".
+  /// Message is "Incidents".
   static String get incidents => "incidents".tr();
 
-  /// Returns the localized string for "Change".
+  /// Message is "Change".
   static String get change => "change".tr();
 
-  /// Returns the localized string for "Changes".
+  /// Message is "Changes".
   static String get changes => "changes".tr();
 
-  /// Returns the localized string for "Release".
+  /// Message is "Release".
   static String get release => "release".tr();
 
-  /// Returns the localized string for "Releases".
+  /// Message is "Releases".
   static String get releases => "releases".tr();
 
-  /// Returns the localized string for "Version".
+  /// Message is "Version".
   static String get version => "version".tr();
 
-  /// Returns the localized string for "Versions".
+  /// Message is "Versions".
   static String get versions => "versions".tr();
 
-  /// Returns the localized string for "Build".
+  /// Message is "Build".
   static String get build => "build".tr();
 
-  /// Returns the localized string for "Builds".
+  /// Message is "Builds".
   static String get builds => "builds".tr();
 
-  /// Returns the localized string for "Repository".
+  /// Message is "Repository".
   static String get repository => "repository".tr();
 
-  /// Returns the localized string for "Repositories".
+  /// Message is "Repositories".
   static String get repositories => "repositories".tr();
 
-  /// Returns the localized string for "Branch".
+  /// Message is "Branch".
   static String get branch => "branch".tr();
 
-  /// Returns the localized string for "Branches".
+  /// Message is "Branches".
   static String get branches => "branches".tr();
 
-  /// Returns the localized string for "Commit".
+  /// Message is "Commit".
   static String get commit => "commit".tr();
 
-  /// Returns the localized string for "Commits".
+  /// Message is "Commits".
   static String get commits => "commits".tr();
 
-  /// Returns the localized string for "Merge".
+  /// Message is "Merge".
   static String get merge => "merge".tr();
 
-  /// Returns the localized string for "Pull Request".
+  /// Message is "Pull Request".
   static String get pullRequest => "pull_request".tr();
 
-  /// Returns the localized string for "Pull Requests".
+  /// Message is "Pull Requests".
   static String get pullRequests => "pull_requests".tr();
 
-  /// Returns the localized string for "Code Review".
+  /// Message is "Code Review".
   static String get codeReview => "code_review".tr();
 
-  /// Returns the localized string for "Pipeline".
+  /// Message is "Pipeline".
   static String get pipeline => "pipeline".tr();
 
-  /// Returns the localized string for "Pipelines".
+  /// Message is "Pipelines".
   static String get pipelines => "pipelines".tr();
 
-  /// Returns the localized string for "Integration".
+  /// Message is "Integration".
   static String get integration => "integration".tr();
 
-  /// Returns the localized string for "Configuration".
+  /// Message is "Configuration".
   static String get configuration => "configuration".tr();
 
-  /// Returns the localized string for "Parameter".
+  /// Message is "Parameter".
   static String get parameter => "parameter".tr();
 
-  /// Returns the localized string for "Parameters".
+  /// Message is "Parameters".
   static String get parameters => "parameters".tr();
 
-  /// Returns the localized string for "Environment".
+  /// Message is "Environment".
   static String get environment => "environment".tr();
 
-  /// Returns the localized string for "Environments".
+  /// Message is "Environments".
   static String get environments => "environments".tr();
 
-  /// Returns the localized string for "Production".
+  /// Message is "Production".
   static String get production => "production".tr();
 
-  /// Returns the localized string for "Staging".
+  /// Message is "Staging".
   static String get staging => "staging".tr();
 
-  /// Returns the localized string for "Testing".
+  /// Message is "Testing".
   static String get testing => "testing".tr();
 
-  /// Returns the localized string for "Quality Assurance".
+  /// Message is "Quality Assurance".
   static String get qualityAssurance => "quality_assurance".tr();
 
-  /// Returns the localized string for "Test Case".
+  /// Message is "Test Case".
   static String get testCase => "test_case".tr();
 
-  /// Returns the localized string for "Test Cases".
+  /// Message is "Test Cases".
   static String get testCases => "test_cases".tr();
 
-  /// Returns the localized string for "Defect".
+  /// Message is "Defect".
   static String get defect => "defect".tr();
 
-  /// Returns the localized string for "Defects".
+  /// Message is "Defects".
   static String get defects => "defects".tr();
 
-  /// Returns the localized string for "User Story".
+  /// Message is "User Story".
   static String get userStory => "user_story".tr();
 
-  /// Returns the localized string for "User Stories".
+  /// Message is "User Stories".
   static String get userStories => "user_stories".tr();
 
-  /// Returns the localized string for "Sprint".
+  /// Message is "Sprint".
   static String get sprint => "sprint".tr();
 
-  /// Returns the localized string for "Sprints".
+  /// Message is "Sprints".
   static String get sprints => "sprints".tr();
 
-  /// Returns the localized string for "Backlog".
+  /// Message is "Backlog".
   static String get backlog => "backlog".tr();
 
-  /// Returns the localized string for "Agile".
+  /// Message is "Agile".
   static String get agile => "agile".tr();
 
-  /// Returns the localized string for "Milestone".
+  /// Message is "Milestone".
   static String get milestone => "milestone".tr();
 
-  /// Returns the localized string for "Milestones".
+  /// Message is "Milestones".
   static String get milestones => "milestones".tr();
 
-  /// Returns the localized string for "Dependency".
+  /// Message is "Dependency".
   static String get dependency => "dependency".tr();
 
-  /// Returns the localized string for "Dependencies".
+  /// Message is "Dependencies".
   static String get dependencies => "dependencies".tr();
 
-  /// Returns the localized string for "Risk".
+  /// Message is "Risk".
   static String get risk => "risk".tr();
 
-  /// Returns the localized string for "Risks".
+  /// Message is "Risks".
   static String get risks => "risks".tr();
 
-  /// Returns the localized string for "Stakeholder".
+  /// Message is "Stakeholder".
   static String get stakeholder => "stakeholder".tr();
 
-  /// Returns the localized string for "Stakeholders".
+  /// Message is "Stakeholders".
   static String get stakeholders => "stakeholders".tr();
 
-  /// Returns the localized string for "Deliverable".
+  /// Message is "Deliverable".
   static String get deliverable => "deliverable".tr();
 
-  /// Returns the localized string for "Deliverables".
+  /// Message is "Deliverables".
   static String get deliverables => "deliverables".tr();
 
-  /// Returns the localized string for "Scope".
+  /// Message is "Scope".
   static String get scope => "scope".tr();
 
-  /// Returns the localized string for "Timeline".
+  /// Message is "Timeline".
   static String get timeline => "timeline".tr();
 
-  /// Returns the localized string for "Resource".
+  /// Message is "Resource".
   static String get resource => "resource".tr();
 
-  /// Returns the localized string for "Resources".
+  /// Message is "Resources".
   static String get resources => "resources".tr();
 
-  /// Returns the localized string for "Assumption".
+  /// Message is "Assumption".
   static String get assumption => "assumption".tr();
 
-  /// Returns the localized string for "Assumptions".
+  /// Message is "Assumptions".
   static String get assumptions => "assumptions".tr();
 
-  /// Returns the localized string for "Authorization".
+  /// Message is "Authorization".
   static String get authorization => "authorization".tr();
 
-  /// Returns the localized string for "Authentication".
+  /// Message is "Authentication".
   static String get authentication => "authentication".tr();
 
-  /// Returns the localized string for "Encryption".
+  /// Message is "Encryption".
   static String get encryption => "encryption".tr();
 
-  /// Returns the localized string for "Firewall".
+  /// Message is "Firewall".
   static String get firewall => "firewall".tr();
 
-  /// Returns the localized string for "Malware".
+  /// Message is "Malware".
   static String get malware => "malware".tr();
 
-  /// Returns the localized string for "Phishing".
+  /// Message is "Phishing".
   static String get phishing => "phishing".tr();
 
-  /// Returns the localized string for "Backup".
+  /// Message is "Backup".
   static String get backup => "backup".tr();
 
-  /// Returns the localized string for "Cloud".
+  /// Message is "Cloud".
   static String get cloud => "cloud".tr();
 
-  /// Returns the localized string for "Server".
+  /// Message is "Server".
   static String get server => "server".tr();
 
-  /// Returns the localized string for "Servers".
+  /// Message is "Servers".
   static String get servers => "servers".tr();
 
-  /// Returns the localized string for "Database".
+  /// Message is "Database".
   static String get database => "database".tr();
 
-  /// Returns the localized string for "Databases".
+  /// Message is "Databases".
   static String get databases => "databases".tr();
 
-  /// Returns the localized string for "Table".
+  /// Message is "Table".
   static String get table => "table".tr();
 
-  /// Returns the localized string for "Tables".
+  /// Message is "Tables".
   static String get tables => "tables".tr();
 
-  /// Returns the localized string for "Row".
+  /// Message is "Row".
   static String get row => "row".tr();
 
-  /// Returns the localized string for "Rows".
+  /// Message is "Rows".
   static String get rows => "rows".tr();
 
-  /// Returns the localized string for "Column".
+  /// Message is "Column".
   static String get column => "column".tr();
 
-  /// Returns the localized string for "Columns".
+  /// Message is "Columns".
   static String get columns => "columns".tr();
 
-  /// Returns the localized string for "Query".
+  /// Message is "Query".
   static String get query => "query".tr();
 
-  /// Returns the localized string for "Queries".
+  /// Message is "Queries".
   static String get queries => "queries".tr();
 
-  /// Returns the localized string for "Index".
+  /// Message is "Index".
   static String get index => "index".tr();
 
-  /// Returns the localized string for "Indexes".
+  /// Message is "Indexes".
   static String get indexes => "indexes".tr();
 
-  /// Returns the localized string for "Monitor".
+  /// Message is "Monitor".
   static String get monitor => "monitor".tr();
 
-  /// Returns the localized string for "Monitoring".
+  /// Message is "Monitoring".
   static String get monitoring => "monitoring".tr();
 
-  /// Returns the localized string for "Metric".
+  /// Message is "Metric".
   static String get metric => "metric".tr();
 
-  /// Returns the localized string for "Metrics".
+  /// Message is "Metrics".
   static String get metrics => "metrics".tr();
 
-  /// Returns the localized string for "Threshold".
+  /// Message is "Threshold".
   static String get threshold => "threshold".tr();
 
-  /// Returns the localized string for "Thresholds".
+  /// Message is "Thresholds".
   static String get thresholds => "thresholds".tr();
 
-  /// Returns the localized string for "Root Cause".
+  /// Message is "Root Cause".
   static String get rootCause => "root_cause".tr();
 
-  /// Returns the localized string for "Diagnostic".
+  /// Message is "Diagnostic".
   static String get diagnostic => "diagnostic".tr();
 
-  /// Returns the localized string for "Resolution".
+  /// Message is "Resolution".
   static String get resolution => "resolution".tr();
 
-  /// Returns the localized string for "Network".
+  /// Message is "Network".
   static String get network => "network".tr();
 
-  /// Returns the localized string for "Networks".
+  /// Message is "Networks".
   static String get networks => "networks".tr();
 
-  /// Returns the localized string for "Protocol".
+  /// Message is "Protocol".
   static String get protocol => "protocol".tr();
 
-  /// Returns the localized string for "Protocols".
+  /// Message is "Protocols".
   static String get protocols => "protocols".tr();
 
-  /// Returns the localized string for "Bandwidth".
+  /// Message is "Bandwidth".
   static String get bandwidth => "bandwidth".tr();
 
-  /// Returns the localized string for "Latency".
+  /// Message is "Latency".
   static String get latency => "latency".tr();
 
-  /// Returns the localized string for "Throughput".
+  /// Message is "Throughput".
   static String get throughput => "throughput".tr();
 
-  /// Returns the localized string for "IP Address".
+  /// Message is "IP Address".
   static String get ipAddress => "ip_address".tr();
 
-  /// Returns the localized string for "Domain".
+  /// Message is "Domain".
   static String get domain => "domain".tr();
 
-  /// Returns the localized string for "Domains".
+  /// Message is "Domains".
   static String get domains => "domains".tr();
 
-  /// Returns the localized string for "Hostname".
+  /// Message is "Hostname".
   static String get hostname => "hostname".tr();
 
-  /// Returns the localized string for "Port".
+  /// Message is "Port".
   static String get port => "port".tr();
 
-  /// Returns the localized string for "Ports".
+  /// Message is "Ports".
   static String get ports => "ports".tr();
 
-  /// Returns the localized string for "VPN".
+  /// Message is "VPN".
   static String get vpn => "vpn".tr();
 
-  /// Returns the localized string for "API".
+  /// Message is "API".
   static String get api => "api".tr();
 
-  /// Returns the localized string for "APIs".
+  /// Message is "APIs".
   static String get apis => "apis".tr();
 
-  /// Returns the localized string for "Endpoint".
+  /// Message is "Endpoint".
   static String get endpoint => "endpoint".tr();
 
-  /// Returns the localized string for "Endpoints".
+  /// Message is "Endpoints".
   static String get endpoints => "endpoints".tr();
 
-  /// Returns the localized string for "Request".
+  /// Message is "Request".
   static String get request => "request".tr();
 
-  /// Returns the localized string for "Response".
+  /// Message is "Response".
   static String get response => "response".tr();
 
-  /// Returns the localized string for "Payload".
+  /// Message is "Payload".
   static String get payload => "payload".tr();
 
-  /// Returns the localized string for "Header".
+  /// Message is "Header".
   static String get header => "header".tr();
 
-  /// Returns the localized string for "Headers".
+  /// Message is "Headers".
   static String get headers => "headers".tr();
 
-  /// Returns the localized string for "Session".
+  /// Message is "Session".
   static String get session => "session".tr();
 
-  /// Returns the localized string for "Cookie".
+  /// Message is "Cookie".
   static String get cookie => "cookie".tr();
 
-  /// Returns the localized string for "Cookies".
+  /// Message is "Cookies".
   static String get cookies => "cookies".tr();
 
-  /// Returns the localized string for "Cache".
+  /// Message is "Cache".
   static String get cache => "cache".tr();
 
-  /// Returns the localized string for "Caches".
+  /// Message is "Caches".
   static String get caches => "caches".tr();
 
 // Due to space constraints, please consider this pattern for the remaining keys.
 
   // ============ Footer ================
-  /// Returns the localized string for "© {{year}} MyApp. All rights reserved.", replacing {{year}} with the provided year.
+  /// Message is "© {{year}} MyApp. All rights reserved.", replacing {{year}} with the provided year.
   static String copyright(String year) => "copyright".tr();
 
-  /// Returns the localized string for "Careers".
+  /// Message is "Careers".
   static String get careers => "careers".tr();
 
-  /// Returns the localized string for "Press".
+  /// Message is "Press".
   static String get press => "press".tr();
 
-  /// Returns the localized string for "Follow Us".
+  /// Message is "Follow Us".
   static String get followUs => "followUs".tr();
 
-  /// Returns the localized string for "Facebook".
+  /// Message is "Facebook".
   static String get facebook => "facebook".tr();
 
-  /// Returns the localized string for "Twitter".
+  /// Message is "Twitter".
   static String get twitter => "twitter".tr();
 
-  /// Returns the localized string for "Instagram".
+  /// Message is "Instagram".
   static String get instagram => "instagram".tr();
 
-  /// Returns the localized string for "LinkedIn".
+  /// Message is "LinkedIn".
   static String get linkedin => "linkedin".tr();
 
-  /// Returns the localized string for "YouTube".
+  /// Message is "YouTube".
   static String get youtube => "youtube".tr();
 
-  /// Returns the localized string for "Site Map".
+  /// Message is "Site Map".
   static String get siteMap => "siteMap".tr();
 
-  /// Returns the localized string for "Visa".
+  /// Message is "Visa".
   static String get visa => "visa".tr();
 
-  /// Returns the localized string for "Mastercard".
+  /// Message is "Mastercard".
   static String get mastercard => "mastercard".tr();
 
-  /// Returns the localized string for "PayPal".
+  /// Message is "PayPal".
   static String get paypal => "paypal".tr();
 
-  /// Returns the localized string for "American Express".
+  /// Message is "American Express".
   static String get amex => "amex".tr();
 
-  /// Returns the localized string for "Discover".
+  /// Message is "Discover".
   static String get discover => "discover".tr();
 }

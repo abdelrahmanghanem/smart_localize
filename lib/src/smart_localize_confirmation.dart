@@ -108,7 +108,7 @@ class SmartLocalizeConfirmation {
   /// Message is "Do you want to send feedback?"
   static String get sendFeedback => "send_feedback".tr();
 
-  /// Message is "Please confirm your action."
+  /// "Please confirm your action."
   static String get confirmAction => "confirm_action".tr();
 
   /// Message is "Are you sure you want to cancel your order?"

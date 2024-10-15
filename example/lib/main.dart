@@ -53,11 +53,11 @@ class MyHomePage extends StatelessWidget {
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalizeValidation.validatePasswordLowercase,
+              SmartLocalizeValidation.passwordLowercase,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalizeValidation.validateCannotBeEmpty,
+              SmartLocalizeValidation.cannotBeEmpty,
               style: const TextStyle(fontSize: 14),
             ),
             Text(

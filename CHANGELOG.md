@@ -1,3 +1,6 @@
+## 0.0.6
+* create SmartLocalizeConfirmation , SmartLocalizeValidation and SmartLocalizePlaceholder
+
 ## 0.0.5
 * add some letter to translate
 

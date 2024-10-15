@@ -1,6 +1,6 @@
 name: smart_localize
 description: "is a Flutter localization package that efficiently handles translations by dynamically loading language resources based on the app's locale, with robust fallback support."
-version: 0.0.6
+version: 0.0.7
 homepage: https://github.com/abdelrahmanghanem
 repository: https://github.com/abdelrahmanghanem/smart_localize
 

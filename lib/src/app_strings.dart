@@ -409,48 +409,35 @@ class SmartLocalize {
   /// Message is "Light Mode".
   static String get lightMode => "light_mode".tr();
 
-  static String get or => "Or".tr();
+  /// Message is "Or"
+  static String get or => "or_".tr();
 
-  /// Returns the label: "Or"
-
-  static String get and => "And".tr();
-
-  /// Returns the label: "And"
-
-  static String get youHaveAnAccount => "You have an account?".tr();
+  /// Message is "And"
+  static String get and => "and_".tr();
 
   /// Returns the message: "You have an account?"
-
-  static String get dontHaveAnAccount => "Don't have an account?".tr();
+  static String get youHaveAnAccount => "you_have_an_account".tr();
 
   /// Returns the message: "Don't have an account?"
+  static String get dontHaveAnAccount => "don't_have_an_account".tr();
 
-  static String get signInWithApple => "Sign in with Apple".tr();
+  /// Message is "Sign in with Apple"
+  static String get signInWithApple => "sign_in_with_apple".tr();
 
-  /// Returns the label: "Sign in with Apple"
+  /// Message is "Sign in with X"
+  static String get signInWithX => "sign_in_with_x".tr();
 
-  static String get signInWithX => "Sign in with X".tr();
+  /// Message is "Sign in with Facebook"
+  static String get signInWithFacebook => "sign_in_with_facebook".tr();
 
-  /// Returns the label: "Sign in with X"
+  /// Message is "Sign in with Google"
+  static String get signInWithGoogle => "sign_in_with_google".tr();
 
-  static String get signInWithFacebook => "Sign in with Facebook".tr();
-
-  /// Returns the label: "Sign in with Facebook"
-
-  static String get signInWithGoogle => "Sign in with Google".tr();
-
-  /// Returns the label: "Sign in with Google"
-
-  static String get enterWith => "Login with".tr();
-
-  /// Returns the label: "Login with"
-
-  static String get byRegistering =>
-      "By registering in the application, you agree to".tr();
+  /// Message is "Login with"
+  static String get enterWith => "login_with".tr();
 
   /// Returns the message: "By registering in the application, you agree to"
-
-  //============== confirmation section ===================
+  static String get byRegistering => "by_registering".tr();
 
   //=============== date section ==================
   /// Message is "Today".

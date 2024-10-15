@@ -49,23 +49,15 @@ class MyHomePage extends StatelessWidget {
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalize.company,
-              style: const TextStyle(fontSize: 14),
-            ),
-            Text(
               SmartLocalizeValidation.passwordLowercase,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalizeValidation.cannotBeEmpty,
+              SmartLocalizeConfirmation.addToCart,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalize.country,
-              style: const TextStyle(fontSize: 14),
-            ),
-            Text(
-              SmartLocalizeConfirmation.confirmAction,
+              SmartLocalizePlaceholder.enterEmail,
               style: const TextStyle(fontSize: 14),
             ),
           ],

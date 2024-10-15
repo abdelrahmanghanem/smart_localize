@@ -1,3 +1,6 @@
+## 0.0.7
+* edit some keys
+
 ## 0.0.6
 * create SmartLocalizeConfirmation , SmartLocalizeValidation and SmartLocalizePlaceholder
 

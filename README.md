@@ -88,15 +88,15 @@ class MyHomePage extends StatelessWidget {
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalize.confirmNewPassword,
+              SmartLocalizeValidation.passwordLowercase,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalize.country,
+              SmartLocalizeConfirmation.addToCart,
               style: const TextStyle(fontSize: 14),
             ),
             Text(
-              SmartLocalize.confirmAcceptCookies,
+              SmartLocalizePlaceholder.enterEmail,
               style: const TextStyle(fontSize: 14),
             ),
           ],

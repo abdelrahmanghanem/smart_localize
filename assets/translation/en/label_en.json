@@ -13,6 +13,7 @@
     "address_line1": "Address Line 1",
     "address_line2": "Address Line 2",
     "number_": "Number",
+    "confirm_password": "Confirm Password",
     "city": "City",
     "state": "State",
     "province": "Province",

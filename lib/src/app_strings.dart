@@ -253,6 +253,9 @@ class SmartLocalize {
   /// Message is "Reply".
   static String get reply => "reply".tr();
 
+  /// Message is "Confirm Password".
+  static String get confirmPassword => "confirm_password".tr();
+
   /// Message is "Forward".
   static String get forward => "forward".tr();
 

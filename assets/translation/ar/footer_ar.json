@@ -1,18 +1,17 @@
 {
-  "copyright": "© {{year}} MyApp. جميع الحقوق محفوظة.",
-
+  "amex": "أمريكان إكسبريس",
   "careers": "وظائف",
-  "press": "الصحافة",
-  "followUs": "تابعنا",
+  "copyright": "© {{year}} MyApp. جميع الحقوق محفوظة.",
+  "discover": "ديسكفر",
   "facebook": "فيسبوك",
-  "twitter": "تويتر",
+  "followUs": "تابعنا",
   "instagram": "إنستغرام",
   "linkedin": "لينكدإن",
-  "youtube": "يوتيوب",
-  "siteMap": "خريطة الموقع",
-  "visa": "فيزا",
   "mastercard": "ماستركارد",
   "paypal": "باي بال",
-  "amex": "أمريكان إكسبريس",
-  "discover": "ديسكفر"
+  "press": "الصحافة",
+  "siteMap": "خريطة الموقع",
+  "twitter": "تويتر",
+  "visa": "فيزا",
+  "youtube": "يوتيوب"
 }

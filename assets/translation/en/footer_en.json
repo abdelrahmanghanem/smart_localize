@@ -1,17 +1,17 @@
 {
-  "copyright": "© {{year}} MyApp. All rights reserved.",
+  "amex": "American Express",
   "careers": "Careers",
-  "press": "Press",
-  "followUs": "Follow Us",
+  "copyright": "© {{year}} MyApp. All rights reserved.",
+  "discover": "Discover",
   "facebook": "Facebook",
-  "twitter": "Twitter",
+  "followUs": "Follow Us",
   "instagram": "Instagram",
   "linkedin": "LinkedIn",
-  "youtube": "YouTube",
-  "siteMap": "Site Map",
-  "visa": "Visa",
   "mastercard": "Mastercard",
   "paypal": "PayPal",
-  "amex": "American Express",
-  "discover": "Discover"
+  "press": "Press",
+  "siteMap": "Site Map",
+  "twitter": "Twitter",
+  "visa": "Visa",
+  "youtube": "YouTube"
 }

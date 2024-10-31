@@ -7,6 +7,9 @@ class SmartLocalize {
   /// Message is "OK".
   static String get ok => "ok".tr();
 
+  /// Message is "Delete All".
+  static String get deleteAll => "delete_all".tr();
+
   /// Message is "Delete".
   static String get delete => "delete".tr();
 
@@ -21,6 +24,12 @@ class SmartLocalize {
 
   /// Message is "Back".
   static String get back => "back".tr();
+
+  /// Message is "Save".
+  static String get save => "save".tr();
+
+  /// Message is "Save All".
+  static String get saveAll => "save_all".tr();
 
   /// Message is "Next".
   static String get next => "next".tr();
@@ -132,6 +141,21 @@ class SmartLocalize {
 
   /// Message is "Edit Profile".
   static String get editProfile => "edit_profile".tr();
+
+  /// Message is "Edit".
+  static String get edit => "edit".tr();
+
+  /// Message is "Coupons".
+  static String get coupons => "coupons".tr();
+
+  /// Message is "Vat".
+  static String get vat => "vat".tr();
+
+  /// Message is "Coupon".
+  static String get coupon => "coupon".tr();
+
+  /// Message is "Submit".
+  static String get submit => "submit".tr();
 
   /// Message is "Change Password".
   static String get changePassword => "change_password".tr();
@@ -434,7 +458,7 @@ class SmartLocalize {
   static String get signInWithGoogle => "sign_in_with_google".tr();
 
   /// Message is "Login with"
-  static String get enterWith => "login_with".tr();
+  static String get enterWith => "enter_with".tr();
 
   /// Returns the message: "By registering in the application, you agree to"
   static String get byRegistering => "by_registering".tr();
@@ -632,6 +656,9 @@ class SmartLocalize {
 
   /// Message is "Last Name".
   static String get lastName => "last_name".tr();
+
+  /// Message is "Name".
+  static String get name => "name".tr();
 
   /// Message is "Last Name".
   static String get welcome => "welcome".tr();

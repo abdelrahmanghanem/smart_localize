@@ -393,9 +393,6 @@ class SmartLocalizePlaceholder {
   /// Message is "Please enter invoice number"
   static String get invoiceNumber => "invoice_number".tr();
 
-  /// Message is "Please enter a new password"
-  static String get newPassword => "new_password".tr();
-
   /// Message is "Please enter your current password"
   static String get oldPassword => "old_password".tr();
 

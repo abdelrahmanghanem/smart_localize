@@ -85,8 +85,32 @@ class SmartLocalize {
   /// Message is "View".
   static String get view => "view".tr();
 
-  /// Message is "Send".
-  static String get send => "send".tr();
+  /// Message is "Second".
+  static String get secondTime => "second_time".tr();
+
+  /// Message is "Remain For You".
+  static String get remainForYou => "remain_for_you".tr();
+
+  /// Message is "Code sent to your email".
+  static String get codeSentToEmail => "code_sent_to_email".tr();
+
+  /// Message is "Resend code after".
+  static String get resendCodeAfter => "resend_code_after".tr();
+
+  /// Message is "Enter another email".
+  static String get enterAnotherEmail => "enter_another_email".tr();
+
+  /// Message is "Please enter your email to reset your password".
+  static String get enterEmailToResetPassword =>
+      "please_enter_your_email_to_reset_your_password".tr();
+
+  /// Message is "Enter the 4-digits code sent to you".
+  static String get enter4DigitsCode =>
+      "enter_the_4-digits_code_sent_to_you".tr();
+
+  /// Message is "Enter the 6-digits code sent to you".
+  static String get enter6DigitsCode =>
+      "enter_the_6-digits_code_sent_to_you".tr();
 
   /// Message is "Add".
   static String get add => "add".tr();
@@ -171,6 +195,9 @@ class SmartLocalize {
 
   /// Message is "Forgot Password".
   static String get forgotPassword => "forgot_password".tr();
+
+  /// Message is "Forgot Password?".
+  static String get forgotPassword1 => "forgot_password1".tr();
 
   /// Message is "Remember Me".
   static String get rememberMe => "remember_me".tr();
@@ -758,6 +785,36 @@ class SmartLocalize {
 
   /// Message is "Avatar".
   static String get avatar => "avatar".tr();
+
+  /// Message is "Verify".
+  static String get verify => "verify".tr();
+
+  /// Message is "Send".
+  static String get sendOtp => "send_otp".tr();
+
+  /// Message is "Verify OTP".
+  static String get verifyOtp => "verify_otp".tr();
+
+  /// Message is "Resend OTP".
+  static String get resendOtp => "resend_otp".tr();
+
+  /// Message is "Try".
+  static String get try1 => "try".tr();
+
+  /// Message is "Tries".
+  static String get tries => "tries".tr();
+
+  /// Message is "New Password".
+  static String get newPassword => "new_password".tr();
+
+  /// Message is "Re-type New Password".
+  static String get reTypeNewPassword => "re_type_new_password".tr();
+
+  /// Message is "Create New Password".
+  static String get createNewPassword => "create_new_password".tr();
+
+  /// Message is "Code sent to your email".
+  static String get codeSentToMail => "code_sent_to_mail".tr();
 
   /// Message is "Bio".
   static String get bio => "bio".tr();

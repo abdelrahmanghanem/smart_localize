@@ -1,3 +1,7 @@
+## 0.0.12
+
+* translate no_data_found
+
 ## 0.0.11
 
 * add some keys

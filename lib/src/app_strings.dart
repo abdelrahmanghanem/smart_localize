@@ -2330,4 +2330,7 @@ class SmartLocalize {
 
   /// Message is "Discover".
   static String get discover => "discover".tr();
+
+  /// Message is "No Data Found".
+  static String get noDataFound => "no_data_found".tr();
 }

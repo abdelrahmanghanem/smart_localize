@@ -45,7 +45,7 @@ class MyHomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              SmartLocalize.company,
+              SmartLocalize.noDataFound,
               style: const TextStyle(fontSize: 14),
             ),
             Text(

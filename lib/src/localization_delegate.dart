@@ -39,30 +39,19 @@ class LocalizeDelegate {
   // Method to load resources for a specific locale
   static Future<Map<String, dynamic>> loadResources(Locale locale) async {
     const String basePath = 'packages/smart_localize/assets/translation';
-    final List<String> resourceFiles = [
-      'button',
-      'confirmation',
-      'date',
-      'footer',
-      'label',
-      'placeholder',
-      'validation'
-    ];
-    Map<String, dynamic> combinedMap = {};
 
-    for (final fileName in resourceFiles) {
-      final filePath =
-          '$basePath/${locale.languageCode}/${fileName}_${locale.languageCode}.json';
-      try {
-        final fileContent = await rootBundle.loadString(filePath);
-        final decodedMap = json.decode(fileContent) as Map<String, dynamic>;
-        combinedMap.addAll(decodedMap);
-      } catch (e) {
-        debugPrint('Error loading file $filePath: $e');
-      }
+    Map<String, dynamic> decodedMap = {};
+
+    final filePath =
+        '$basePath/${locale.languageCode}/${locale.languageCode}.json';
+    try {
+      final fileContent = await rootBundle.loadString(filePath);
+      decodedMap = json.decode(fileContent) as Map<String, dynamic>;
+    } catch (e) {
+      debugPrint('Error loading file $filePath: $e');
     }
 
-    return combinedMap;
+    return decodedMap;
   }
 
   // Load translations and fallback translations

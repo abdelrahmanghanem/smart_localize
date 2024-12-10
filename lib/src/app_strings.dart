@@ -10,6 +10,15 @@ class SmartLocalize {
   /// Message is "Delete All".
   static String get deleteAll => "delete_all".tr();
 
+  /// Message is "good Afternoon".
+  static String get goodAfternoon => "good_afternoon".tr();
+
+  /// Message is "good evening".
+  static String get goodEvening => "good_evening".tr();
+
+  /// Message is "good morning".
+  static String get goodMorning => "good_morning".tr();
+
   /// Message is "Delete".
   static String get delete => "delete".tr();
 

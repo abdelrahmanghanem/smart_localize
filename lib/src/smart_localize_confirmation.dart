@@ -12,6 +12,15 @@ class SmartLocalizeConfirmation {
   /// Message is "Are you sure you want to exit?"
   static String get exit => "exit".tr();
 
+  /// Message is "Good Afternoon"
+  static String get goodAfternoon => "good_afternoon".tr();
+
+  /// Message is "Good Evening"
+  static String get goodEvening => "good_evening".tr();
+
+  /// Message is "Good Morning"
+  static String get goodMorning => "good_morning".tr();
+
   /// Message is "Do you want to save changes?"
   static String get saveChanges => "save_changes".tr();
 
@@ -110,6 +119,8 @@ class SmartLocalizeConfirmation {
 
   /// "Please confirm your action."
   static String get confirmAction => "confirm_action".tr();
+
+  static String get confirmRequestFor => "confirm_request_for".tr();
 
   /// Message is "Are you sure you want to cancel your order?"
   static String get cancelOrder => "cancel_order".tr();

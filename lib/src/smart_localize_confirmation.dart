@@ -12,15 +12,6 @@ class SmartLocalizeConfirmation {
   /// Message is "Are you sure you want to exit?"
   static String get exit => "exit".tr();
 
-  /// Message is "Good Afternoon"
-  static String get goodAfternoon => "good_afternoon".tr();
-
-  /// Message is "Good Evening"
-  static String get goodEvening => "good_evening".tr();
-
-  /// Message is "Good Morning"
-  static String get goodMorning => "good_morning".tr();
-
   /// Message is "Do you want to save changes?"
   static String get saveChanges => "save_changes".tr();
 

@@ -1,11 +1,11 @@
 name: smart_localize
 description: "is a Flutter localization package that efficiently handles translations by dynamically loading language resources based on the app's locale, with robust fallback support."
-version: 0.0.13
+version: 0.0.14
 homepage: https://github.com/abdelrahmanghanem
 repository: https://github.com/abdelrahmanghanem/smart_localize
 
 environment:
-  sdk: ^3.5.2
+  sdk: ^3.6.0
   flutter: ">=1.17.0"
 
 dependencies:
@@ -16,7 +16,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

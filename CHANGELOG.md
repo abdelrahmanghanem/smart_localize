@@ -1,3 +1,7 @@
+## 0.0.14
+
+* add smart localize status
+
 ## 0.0.13
 
 * add greeting keys

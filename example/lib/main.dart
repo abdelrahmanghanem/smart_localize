@@ -60,6 +60,10 @@ class MyHomePage extends StatelessWidget {
               SmartLocalizePlaceholder.enterEmail,
               style: const TextStyle(fontSize: 14),
             ),
+            Text(
+              SmartLocalizeStatus.active,
+              style: const TextStyle(fontSize: 14),
+            ),
           ],
         ),
       ),

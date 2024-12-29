@@ -1,3 +1,7 @@
+## 0.0.15
+
+* add smart localize status
+
 ## 0.0.14
 
 * add smart localize status
